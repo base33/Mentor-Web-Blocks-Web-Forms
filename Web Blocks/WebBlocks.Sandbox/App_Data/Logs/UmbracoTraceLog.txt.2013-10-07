@@ -1,0 +1,1265 @@
+2013-10-07 09:40:29,052 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application starting
+2013-10-07 09:40:29,103 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2013-10-07 09:40:29,109 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 5ms)
+2013-10-07 09:40:29,502 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 382ms)
+2013-10-07 09:40:29,508 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 09:40:29,514 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 09:40:29,516 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 09:40:29,840 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-07 09:40:29,992 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application startup complete (took 937ms)
+2013-10-07 09:40:33,316 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2013-10-07 09:40:33,333 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 09:40:37,990 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 09:40:38,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 09:41:34,554 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 6] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-07 09:42:30,310 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application starting
+2013-10-07 09:42:30,326 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2013-10-07 09:42:30,332 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 5ms)
+2013-10-07 09:42:30,422 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 85ms)
+2013-10-07 09:42:30,427 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 09:42:30,431 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 09:42:30,434 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 09:42:30,439 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 09:42:30,460 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application startup complete (took 147ms)
+2013-10-07 09:42:30,569 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 09:42:30,581 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 09:42:35,093 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 09:42:35,773 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-10-07 09:42:59,897 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-10-07 09:42:59,944 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-07 09:43:07,422 [9] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 2ms)
+2013-10-07 10:29:31,192 [9] INFO  Umbraco.Web.UmbracoApplication - [Thread 24] Application shutdown. Reason: ConfigurationChange
+2013-10-07 10:29:41,447 [12] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application starting
+2013-10-07 10:29:41,476 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2013-10-07 10:29:41,481 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 4ms)
+2013-10-07 10:29:41,867 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 381ms)
+2013-10-07 10:29:41,873 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 10:29:41,877 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:29:41,883 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-10-07 10:29:41,888 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 10:29:41,909 [12] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application startup complete (took 459ms)
+2013-10-07 10:29:41,915 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-07 10:29:42,000 [12] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 10:30:11,341 [12] INFO  Umbraco.Web.UmbracoApplication - [Thread 31] Application shutdown. Reason: ConfigurationChange
+2013-10-07 10:30:21,335 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 20] Umbraco application starting
+2013-10-07 10:30:21,359 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Determining hash of code files on disk
+2013-10-07 10:30:21,364 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Hash determined (took 4ms)
+2013-10-07 10:30:21,655 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 286ms)
+2013-10-07 10:30:21,659 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 10:30:21,663 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:30:21,664 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 10:30:21,669 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-07 10:30:21,690 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 20] Umbraco application startup complete (took 352ms)
+2013-10-07 10:30:21,805 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-07 10:30:21,868 [14] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 10:30:47,659 [14] INFO  Umbraco.Web.UmbracoApplication - [Thread 24] Application shutdown. Reason: ConfigurationChange
+2013-10-07 10:30:51,351 [29] INFO  Umbraco.Core.CoreBootManager - [Thread 20] Umbraco application starting
+2013-10-07 10:30:51,376 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Determining hash of code files on disk
+2013-10-07 10:30:51,381 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Hash determined (took 4ms)
+2013-10-07 10:30:51,676 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 289ms)
+2013-10-07 10:30:51,681 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 10:30:51,685 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:30:51,687 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 10:30:51,692 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 10:30:51,713 [29] INFO  Umbraco.Core.CoreBootManager - [Thread 20] Umbraco application startup complete (took 358ms)
+2013-10-07 10:30:51,820 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 10:30:51,884 [29] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 10:31:00,742 [29] INFO  Umbraco.Web.UmbracoApplication - [Thread 33] Application shutdown. Reason: ConfigurationChange
+2013-10-07 10:31:01,348 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 24] Umbraco application starting
+2013-10-07 10:31:01,372 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Determining hash of code files on disk
+2013-10-07 10:31:01,377 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Hash determined (took 4ms)
+2013-10-07 10:31:01,668 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 285ms)
+2013-10-07 10:31:01,680 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2013-10-07 10:31:01,684 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:31:01,686 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 10:31:01,692 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 10:31:01,712 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 24] Umbraco application startup complete (took 362ms)
+2013-10-07 10:31:01,821 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-07 10:31:01,885 [14] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 10:32:09,135 [14] INFO  Umbraco.Web.UmbracoApplication - [Thread 31] Application shutdown. Reason: HostingEnvironment
+2013-10-07 10:32:14,436 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application starting
+2013-10-07 10:32:14,467 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2013-10-07 10:32:14,472 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 5ms)
+2013-10-07 10:32:14,808 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 329ms)
+2013-10-07 10:32:14,814 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 10:32:14,822 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:32:14,825 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 10:32:14,834 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 10:32:14,858 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application startup complete (took 418ms)
+2013-10-07 10:32:15,070 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 10:32:15,287 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 10:32:16,458 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 10:32:16,613 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-10-07 10:52:09,958 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 23] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-07 10:52:14,415 [25] INFO  Umbraco.Core.CoreBootManager - [Thread 24] Umbraco application starting
+2013-10-07 10:52:14,432 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Determining hash of code files on disk
+2013-10-07 10:52:14,438 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Hash determined (took 5ms)
+2013-10-07 10:52:14,528 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 83ms)
+2013-10-07 10:52:14,533 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 10:52:14,537 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 10:52:14,540 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 10:52:14,545 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 10:52:14,565 [25] INFO  Umbraco.Core.CoreBootManager - [Thread 24] Umbraco application startup complete (took 148ms)
+2013-10-07 10:52:14,812 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 10:52:14,825 [25] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-07 10:54:58,297 [25] INFO  Umbraco.Web.UmbracoApplication - [Thread 23] Application shutdown. Reason: HostingEnvironment
+2013-10-07 11:34:14,193 [12] INFO  Umbraco.Core.CoreBootManager - [Thread 7] Umbraco application starting
+2013-10-07 11:34:14,212 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Determining hash of code files on disk
+2013-10-07 11:34:14,219 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Hash determined (took 6ms)
+2013-10-07 11:34:14,345 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 120ms)
+2013-10-07 11:34:14,352 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 11:34:14,361 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 11:34:14,363 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 11:34:14,376 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 11:34:14,412 [12] INFO  Umbraco.Core.CoreBootManager - [Thread 7] Umbraco application startup complete (took 216ms)
+2013-10-07 11:34:14,725 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 11:34:14,742 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-07 11:34:19,455 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2013-10-07 11:34:20,261 [12] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 11:34:23,131 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 8] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:34:23,145 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 7] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:34:23,157 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 7] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:36:02,815 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 14] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:36:03,694 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 8] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:36:05,444 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 14] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:36:21,866 [12] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:38:37,832 [12] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-07 11:38:37,900 [12] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-07 11:38:44,872 [12] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-07 11:54:14,530 [12] INFO  Umbraco.Web.UmbracoApplication - [Thread 33] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-07 11:54:22,375 [35] INFO  Umbraco.Core.CoreBootManager - [Thread 31] Umbraco application starting
+2013-10-07 11:54:22,392 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Determining hash of code files on disk
+2013-10-07 11:54:22,399 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Hash determined (took 5ms)
+2013-10-07 11:54:22,491 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 87ms)
+2013-10-07 11:54:22,496 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 11:54:22,500 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 11:54:22,502 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 11:54:22,507 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 11:54:22,529 [35] INFO  Umbraco.Core.CoreBootManager - [Thread 31] Umbraco application startup complete (took 151ms)
+2013-10-07 11:54:22,774 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 11:54:22,786 [35] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 11:54:27,032 [35] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2013-10-07 11:54:27,724 [35] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 11:54:52,154 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 32] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 51
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:52,860 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:55,691 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:56,555 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 33] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:57,376 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 31] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:58,451 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 30] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:54:59,082 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 28] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:08,467 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 30] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:13,274 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 33] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:14,303 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:15,684 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:16,931 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 31] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:17,966 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 32] An unhandled exception occurred
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 52
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:19,469 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:23,203 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 28] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:24,068 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:25,053 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 31] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:26,557 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 28] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:26,743 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:46,099 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:48,426 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:49,107 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:49,511 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:49,740 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:49,960 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:50,180 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:50,455 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:50,686 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:51,453 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:51,946 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,053 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,053 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,187 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,187 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,320 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,320 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:56:52,406 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 4] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:01:34,182 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:01:50,672 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 26] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:01:56,111 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:02:01,693 [35] ERROR Umbraco.Web.UmbracoApplication - [Thread 8] An unhandled exception occurred
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at MImageResizer.ImageResizer.ProcessRequestForNewImage(String physicalFilePath, String cachedImagePath, Int32 height, Int32 width, Boolean crop, ImageCodecInfo imgCodecInfo, EncoderParameters encoderParameters) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 162
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 77
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:17:31,860 [35] INFO  Umbraco.Web.UmbracoApplication - [Thread 42] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-07 12:17:41,505 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 47] Umbraco application starting
+2013-10-07 12:17:41,523 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Determining hash of code files on disk
+2013-10-07 12:17:41,528 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Hash determined (took 5ms)
+2013-10-07 12:17:41,624 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 90ms)
+2013-10-07 12:17:41,630 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-10-07 12:17:41,634 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 12:17:41,636 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 12:17:41,641 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-07 12:17:41,663 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 47] Umbraco application startup complete (took 155ms)
+2013-10-07 12:17:41,806 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2013-10-07 12:17:41,819 [36] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-07 12:17:41,968 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:17:49,141 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 43] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:17:53,604 [36] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 12:17:54,303 [36] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 12:18:45,535 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 7] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:18:47,057 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:05,674 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 7] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:07,069 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 37] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:07,240 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:12,608 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 41] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:13,587 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 44] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:13,752 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:13,898 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 43] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:14,049 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:14,161 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 39] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:18,734 [36] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-07 12:19:18,793 [36] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 3ms)
+2013-10-07 12:19:20,141 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 41] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:20,145 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 34] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:20,240 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 37] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:20,290 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 28] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:20,517 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 39] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:32,043 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:32,045 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 41] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:32,182 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 42] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:32,210 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:32,470 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 44] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:42,163 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 34] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:42,165 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:42,414 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 39] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:42,434 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 44] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:42,648 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 47] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:49,468 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:51,330 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 39] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:19:55,625 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 42] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:13,094 [36] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 5ms)
+2013-10-07 12:20:25,890 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 44] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:25,895 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:26,032 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 42] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:26,240 [36] ERROR Umbraco.Web.UmbracoApplication - [Thread 38] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:33,654 [36] INFO  Umbraco.Web.UmbracoApplication - [Thread 35] Application shutdown. Reason: HostingEnvironment
+2013-10-07 12:20:44,342 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application starting
+2013-10-07 12:20:44,380 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2013-10-07 12:20:44,387 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 6ms)
+2013-10-07 12:20:45,115 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 724ms)
+2013-10-07 12:20:45,122 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-10-07 12:20:45,131 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 12:20:45,133 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-07 12:20:45,146 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 12:20:45,181 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application startup complete (took 835ms)
+2013-10-07 12:20:45,504 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 12:20:45,519 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-07 12:20:46,282 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 12:20:46,545 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 12:20:48,727 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-07 12:20:48,794 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 3ms)
+2013-10-07 12:20:49,497 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:49,497 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:49,540 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:20:49,859 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:15,287 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 12] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:15,287 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:15,395 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:15,421 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:15,687 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:18,765 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 16] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:19,612 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 15] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:58,171 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 16] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:58,178 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:58,366 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 16] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:58,399 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:58,605 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:21:59,395 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 16] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:00,196 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 17] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:00,198 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 20] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:00,257 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 18] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:00,467 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 24] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:01,130 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:03,764 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 24] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:38,825 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:38,851 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:38,990 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:39,022 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:39,236 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:22:45,293 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 27] Application shutdown. Reason: HostingEnvironment
+2013-10-07 12:25:56,726 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application starting
+2013-10-07 12:25:56,760 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2013-10-07 12:25:56,767 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 6ms)
+2013-10-07 12:25:57,401 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 629ms)
+2013-10-07 12:25:57,407 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-07 12:25:57,415 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-07 12:25:57,417 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-07 12:25:57,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-07 12:25:57,465 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application startup complete (took 736ms)
+2013-10-07 12:25:57,743 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-07 12:25:57,760 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-07 12:25:58,492 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-07 12:25:58,754 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-07 12:26:05,295 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-07 12:26:05,303 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-07 12:26:13,035 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-07 12:26:13,732 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 12] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:26:50,468 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:26:50,468 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 14] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:26:50,622 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 12:26:50,836 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 38
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 15:03:39,980 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 24] Application shutdown. Reason: HostingEnvironment

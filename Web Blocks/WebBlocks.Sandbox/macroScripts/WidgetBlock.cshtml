@@ -1,0 +1,38 @@
+﻿@* =================================================================================================== **
+MENTOR WIDGET BLOCK v1.0 : RAZOR SCRIPT
+Author: Mabs Rahman @ Mentor Digital
+** =================================================================================================== *@
+
+@{
+	@* SET THE WRAPPER CLASS ---------------------- *@
+	if(Model.classes == "") { 
+		WebBlocks.AddBlockClass("grid_3"); 
+	}
+	@* -------------------------------------------- *@
+	
+	@* SET VARIABLES ------------------------------ *@
+	string title = Model.title != "" ? Model.title : Model.Name;
+	string imageUrl = Model.image != "" ? Model.MediaById(Model.image).umbracoFile : "";
+	string link = Model.link != "" ? Model.NodeById(Model.link).Url : "";
+	@* -------------------------------------------- *@
+}
+
+@* MARKUP OUTPUT ------------------------------ *@
+<div class="siteBlock">
+	<div class="blockTitle">
+		@if(link != "") { <a href="@link">@title</a> }
+		else { @title }
+	</div>
+		
+	@if(imageUrl != "") {
+		<div class="blockImage">
+			@if(link != "") { <a href="@link"><img src="@imageUrl" alt="@title" /></a> }
+			else { <img src="@imageUrl" alt="@title" /> }
+		</div>
+	}
+	
+	@if(Model.contentText.ToString() != "") {
+		<div class="blockContent">@Model.contentText</div>
+	}
+</div>
+@* -------------------------------------------- *@

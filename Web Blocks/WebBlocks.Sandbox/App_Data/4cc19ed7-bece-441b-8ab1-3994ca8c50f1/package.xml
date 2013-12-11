@@ -1,0 +1,1507 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>installer.ascx</guid>
+      <orgPath>/Umbraco/plugins/webblocks</orgPath>
+      <orgName>installer.ascx</orgName>
+    </file>
+    <file>
+      <guid>jquery-ui.custom.css</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css</orgPath>
+      <orgName>jquery-ui.custom.css</orgName>
+    </file>
+    <file>
+      <guid>jQuery.contextMenu.css</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css</orgPath>
+      <orgName>jQuery.contextMenu.css</orgName>
+    </file>
+    <file>
+      <guid>webblocks.css</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css</orgPath>
+      <orgName>webblocks.css</orgName>
+    </file>
+    <file>
+      <guid>cut.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>cut.png</orgName>
+    </file>
+    <file>
+      <guid>door.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>door.png</orgName>
+    </file>
+    <file>
+      <guid>page_white_add.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>page_white_add.png</orgName>
+    </file>
+    <file>
+      <guid>page_white_copy.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>page_white_copy.png</orgName>
+    </file>
+    <file>
+      <guid>page_white_delete.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>page_white_delete.png</orgName>
+    </file>
+    <file>
+      <guid>page_white_edit.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>page_white_edit.png</orgName>
+    </file>
+    <file>
+      <guid>page_white_paste.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>page_white_paste.png</orgName>
+    </file>
+    <file>
+      <guid>Thumbs.db</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_diagonals-thick_18_b81900_40x40.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_diagonals-thick_18_b81900_40x40.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_diagonals-thick_20_666666_40x40.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_diagonals-thick_20_666666_40x40.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_10_000000_40x100.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_flat_10_000000_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_glass_100_f6f6f6_1x400.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_glass_100_f6f6f6_1x400.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_glass_100_fdf5ce_1x400.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_glass_100_fdf5ce_1x400.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_glass_65_ffffff_1x400.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_glass_65_ffffff_1x400.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_glass_75_ffffff_1x400.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_glass_75_ffffff_1x400.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_gloss-wave_35_f6a828_500x100.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_gloss-wave_35_f6a828_500x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_highlight-soft_100_eeeeee_1x100.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_highlight-soft_100_eeeeee_1x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_highlight-soft_75_ffe45c_1x100.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-bg_highlight-soft_75_ffe45c_1x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_222222_256x240.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-icons_222222_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_228ef1_256x240.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-icons_228ef1_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_ef8c08_256x240.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-icons_ef8c08_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_ffd27a_256x240.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-icons_ffd27a_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_ffffff_256x240.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/css/images</orgPath>
+      <orgName>ui-icons_ffffff_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>aa0164c4-67ac-478d-8445-6e4754507f4f_cut.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>cut.png</orgName>
+    </file>
+    <file>
+      <guid>c6033c4e-c46d-4a2b-8f8a-5719e2c7f7e3_door.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>door.png</orgName>
+    </file>
+    <file>
+      <guid>logo.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>logo.png</orgName>
+    </file>
+    <file>
+      <guid>5a18863b-caa8-40e8-bcb0-825d609184f4_page_white_add.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>page_white_add.png</orgName>
+    </file>
+    <file>
+      <guid>37f945cd-e9d0-4b51-a19b-74ad8a7b14a2_page_white_copy.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>page_white_copy.png</orgName>
+    </file>
+    <file>
+      <guid>7d9fdc41-eaa6-4454-b367-302ff0df8a68_page_white_delete.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>page_white_delete.png</orgName>
+    </file>
+    <file>
+      <guid>c6c1a110-8d33-451e-a197-6c7d9f77aa18_page_white_edit.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>page_white_edit.png</orgName>
+    </file>
+    <file>
+      <guid>5a66e90c-8c06-48f6-b3a4-1952e5ca1677_page_white_paste.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>page_white_paste.png</orgName>
+    </file>
+    <file>
+      <guid>0eff1321-2dc0-48e9-b332-94474ec1994a_Thumbs.db</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>wysiwygoff.jpg</guid>
+      <orgPath>/Umbraco/plugins/webblocks/images</orgPath>
+      <orgName>wysiwygoff.jpg</orgName>
+    </file>
+    <file>
+      <guid>base.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>base.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.contextMenu.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>jquery.contextMenu.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.jeegoocontext.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>jquery.jeegoocontext.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.jeegoocontext.min.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>jquery.jeegoocontext.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.ui.position.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>jquery.ui.position.js</orgName>
+    </file>
+    <file>
+      <guid>json2.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>json2.js</orgName>
+    </file>
+    <file>
+      <guid>webblocks.js</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts</orgPath>
+      <orgName>webblocks.js</orgName>
+    </file>
+    <file>
+      <guid>style.css</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_blue</orgPath>
+      <orgName>style.css</orgName>
+    </file>
+    <file>
+      <guid>submenu.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_blue/images</orgPath>
+      <orgName>submenu.gif</orgName>
+    </file>
+    <file>
+      <guid>33cef5cc-8895-468f-903d-5cea0bbbeae9_Thumbs.db</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_blue/images</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>135fee5d-e620-4f57-b094-0aec714604a1_style.css</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default</orgPath>
+      <orgName>style.css</orgName>
+    </file>
+    <file>
+      <guid>background.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>background.gif</orgName>
+    </file>
+    <file>
+      <guid>hover.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>hover.gif</orgName>
+    </file>
+    <file>
+      <guid>separator.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>separator.gif</orgName>
+    </file>
+    <file>
+      <guid>be611fc7-66b6-440c-83e3-278ba00d1f91_submenu.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>submenu.gif</orgName>
+    </file>
+    <file>
+      <guid>submenu_dis.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>submenu_dis.gif</orgName>
+    </file>
+    <file>
+      <guid>16c58678-8b45-49c7-b5a0-17fad2ae3fd5_Thumbs.db</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>block.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images/icons</orgPath>
+      <orgName>block.png</orgName>
+    </file>
+    <file>
+      <guid>delete.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images/icons</orgPath>
+      <orgName>delete.png</orgName>
+    </file>
+    <file>
+      <guid>edit.png</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images/icons</orgPath>
+      <orgName>edit.png</orgName>
+    </file>
+    <file>
+      <guid>folders.gif</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images/icons</orgPath>
+      <orgName>folders.gif</orgName>
+    </file>
+    <file>
+      <guid>3eef983d-a13b-46ec-80b1-e91279c51d94_Thumbs.db</guid>
+      <orgPath>/Umbraco/plugins/webblocks/scripts/skins/cm_default/images/icons</orgPath>
+      <orgName>Thumbs.db</orgName>
+    </file>
+    <file>
+      <guid>WebBlocks.BusinessLogic.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>WebBlocks.BusinessLogic.dll</orgName>
+    </file>
+    <file>
+      <guid>WebBlocks.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>WebBlocks.dll</orgName>
+    </file>
+    <file>
+      <guid>WebBlocks.Model.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>WebBlocks.Model.dll</orgName>
+    </file>
+    <file>
+      <guid>block.ascx</guid>
+      <orgPath>/usercontrols/webblocks</orgPath>
+      <orgName>block.ascx</orgName>
+    </file>
+    <file>
+      <guid>container.ascx</guid>
+      <orgPath>/usercontrols/webblocks</orgPath>
+      <orgName>container.ascx</orgName>
+    </file>
+    <file>
+      <guid>RazorScriptPicker.ascx</guid>
+      <orgPath>/usercontrols/webblocks/datatypes/General</orgPath>
+      <orgName>RazorScriptPicker.ascx</orgName>
+    </file>
+    <file>
+      <guid>UserControlPropertySetter.ascx</guid>
+      <orgPath>/usercontrols/webblocks/datatypes/General</orgPath>
+      <orgName>UserControlPropertySetter.ascx</orgName>
+    </file>
+    <file>
+      <guid>LayoutBuilder.ascx</guid>
+      <orgPath>/usercontrols/webblocks/datatypes/LayoutBuilder</orgPath>
+      <orgName>LayoutBuilder.ascx</orgName>
+    </file>
+    <file>
+      <guid>WebBlocksBackendScriptIncludes.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>WebBlocksBackendScriptIncludes.cshtml</orgName>
+    </file>
+    <file>
+      <guid>a84f2f4f-0061-43cf-bbd7-1dc9692602d7_installer.ascx</guid>
+      <orgPath>/umbraco/plugins/webblocks</orgPath>
+      <orgName>installer.ascx</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Mentor Web Blocks</name>
+      <version>2.5.6</version>
+      <license url="http://opensource.org/licenses/GPL-2.0">GPL v2 License</license>
+      <url>http://www.MentorWebBlocks.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Mentor Digital</name>
+      <website>http://www.MentorDigital.co.uk</website>
+    </author>
+    <readme><![CDATA[For tutorials, documentation and installable blocks, visit www.MentorWebBlocks.com
+
+
+------------------------------------
+After installation:
+
+<p>Add the following lines to the web.config…</p>
+        <div style="color:blue;font-family: Terminus,Consolas;font-size:11pt;">
+            &lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb"  <span style="color:red">namespace</span>="WebBlocks.usercontrols" <span style="color:red">assembly</span>="WebBlocks" /&gt;<br/>
+            &lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb" <span style="color:red">src</span>="~/usercontrols/webblocks/container.ascx" <span style="color:red">tagName</span>="container" /&gt;<br/>
+            &lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb" <span style="color:red">src</span>="~/usercontrols/webblocks/block.ascx" <span style="color:red">tagName</span>="block" /&gt;<br/>
+        </div>
+        <p>
+            ...add it to around line 80 as per this example. The bold text is the code to add.
+        </p>
+        <div style="color:blue;font-family: Terminus,Consolas;font-size:11pt;">
+            &lt;<span style="color:rgb(139, 13, 13)">pages</span> <span style="color:red">enableEventValidation</span>="false"&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">controls</span>&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="asp" <span style="color:red">namespace</span>="System.Web.UI" <span style="color:red">assembly</span>="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" /&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="umbraco" <span style="color:red">namespace</span>="umbraco.presentation.templateControls" <span style="color:red">assembly</span>="umbraco" /&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="asp" <span style="color:red">namespace</span>="System.Web.UI.WebControls" <span style="color:red">assembly</span>="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" /&gt;<br/>
+               <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb"  <span style="color:red">namespace</span>="WebBlocks.usercontrols" <span style="color:red">assembly</span>="WebBlocks" /&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb" <span style="color:red">src</span>="~/usercontrols/webblocks/container.ascx" <span style="color:red">tagName</span>="container" /&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">tagPrefix</span>="wb" <span style="color:red">src</span>="~/usercontrols/webblocks/block.ascx" <span style="color:red">tagName</span>="block" /&gt;</b><br/>
+              &nbsp;&nbsp;&nbsp;&lt;/<span style="color:rgb(139, 13, 13)">controls</span>&gt;<br/>
+            &lt;/<span style="color:rgb(139, 13, 13)">pages</span>&gt;
+        </div>
+        <p>Just one more...</p>
+        
+        <div style="color:blue;font-family: Terminus,Consolas;font-size:11pt;">
+            &lt;<span style="color:rgb(139, 13, 13)">add</span> namespace="WebBlocks.BusinessLogic.Helpers" /&gt;
+        </div>
+        <div>
+            <p>...add it to around line 263 as per this example. Again, the bold text is the code to add.</p>
+        </div>
+        <div style="color:blue;font-family: Terminus,Consolas;font-size:11pt;">
+            &lt;<span style="color:rgb(139, 13, 13)">system.web.webPages.razor</span>&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">host</span> <span style="color:red">factoryType</span>="umbraco.MacroEngines.RazorUmbracoFactory, umbraco.MacroEngines" /&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">pages</span> <span style="color:red">pageBaseType</span>="umbraco.MacroEngines.DynamicNodeContext"&gt;<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">namespaces</span>&gt;<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">namespace</span>="Microsoft.Web.Helpers" /&gt;<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">namespace</span>="umbraco" /&gt;<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">namespace</span>="Examine" /&gt;<br/>
+                    <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:rgb(139, 13, 13)">add</span> <span style="color:red">namespace</span>="WebBlocks.BusinessLogic.Helpers" /&gt;</b><br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:rgb(139, 13, 13)">namespaces</span>&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&lt;/<span style="color:rgb(139, 13, 13)">pages</span>&gt;<br/>
+            &lt;/<span style="color:rgb(139, 13, 13)">system.web.webPages.razor</span>&gt;<br/>
+        </div>]]></readme>
+  </info>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Base</Name>
+        <Alias>Base</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>SEO Settings</Name>
+          <Alias>sEOSettingsLabel</Alias>
+          <Type>6c738306-4c17-4d88-b9bd-6546f3771597</Type>
+          <Definition>f0bc4bfb-b499-40d6-ba86-058885a5178c</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Defines a title in the browser toolbar and search engine results]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Nav Settings</Name>
+          <Alias>navSettingsLabel</Alias>
+          <Type>6c738306-4c17-4d88-b9bd-6546f3771597</Type>
+          <Definition>f0bc4bfb-b499-40d6-ba86-058885a5178c</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Hide from nav using "umbracoNaviHide"]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>URL Redirect</Name>
+          <Alias>umbracoUrlRedirectId</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Allows redirect to another page within your site ]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Custom Url</Name>
+          <Alias>customUrl</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Custom alias URL]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Slug</Name>
+          <Alias>slug</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>SEO &amp; Nav Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Changes the current page's segment in the URL]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>6</Id>
+          <Caption>SEO &amp; Nav Settings</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Block</Name>
+        <Alias>Block</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Classes</Name>
+          <Alias>classes</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>8</Id>
+          <Caption>Settings</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Block Builder Pages</Name>
+        <Alias>blockBuilderPages</Alias>
+        <Icon>developerMacro.gif</Icon>
+        <Thumbnail>developer.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Base</Master>
+        <AllowedTemplates>
+          <Template>ContentPageLeftMenu</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>ContentPageLeftMenu</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Builder</Name>
+          <Alias>builder</Alias>
+          <Type>849f2844-33c5-45d6-870c-87aa7e51d55e</Type>
+          <Definition>e69df26a-7801-4e76-9f79-b9a6acec5c23</Definition>
+          <Tab>Layout</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>9</Id>
+          <Caption>Layout</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Blocks Folder</Name>
+        <Alias>BlocksFolder</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>BlocksFolder</DocumentType>
+        <DocumentType>RazorScriptBlock</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Content Page</Name>
+        <Alias>ContentPage</Alias>
+        <Icon>docPic.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>blockBuilderPages</Master>
+        <AllowedTemplates>
+          <Template>ContentPageFullWidth</Template>
+          <Template>ContentPageLeftMenu</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>ContentPageLeftMenu</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>ContentPage</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Razor Script Block</Name>
+        <Alias>RazorScriptBlock</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Block</Master>
+        <AllowedTemplates>
+          <Template>RazorScriptBlock</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>RazorScriptBlock</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Script Name</Name>
+          <Alias>scriptName</Alias>
+          <Type>d15e1281-e456-4b24-aa86-1dda3e4299d5</Type>
+          <Definition>abb7b0b5-61d1-42b6-829d-84f8d2c9ce73</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Usercontrol Block</Name>
+        <Alias>UsercontrolBlock</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Block</Master>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Parameters</Name>
+          <Alias>parameters</Alias>
+          <Type>d15e1281-e456-4b24-aa86-1dda3e4299d5</Type>
+          <Definition>96d67d06-58ad-49d0-8fdc-d4beb365e611</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs />
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>Content Page Full Width</Name>
+      <Alias>ContentPageFullWidth</Alias>
+      <Master>Global</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Global.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="LayoutContent" runat="server">
+	<div class="container_12">
+		<!-- 
+			below: to be able to transfer wysiwyg content between template changes, 
+			include a page wysiwyg block inside a container named the same the container the wysiwyg exists in
+			Add block to container:
+		-->
+		<wb:container ID="contentContainer" Class="contentBlock_12" runat="server">
+			<blocks>
+				<wb:block BlockType="PageWysiwygBlock" Class="grid_12 bodyText" SortOrder="2" runat="server" />
+			</blocks>
+		</wb:container>
+		
+		<div class="clear"></div>
+	</div>
+</asp:content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Content Page Left Menu</Name>
+      <Alias>ContentPageLeftMenu</Alias>
+      <Master>Global</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Global.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="LayoutContent" runat="server">
+	<div class="container_12">
+		<wb:container ID="leftContatiner" Class="contentBlock_3" runat="server">
+			<blocks>
+				<wb:block BlockID="1097" Class="grid_3" SortOrder="0" runat="server"/>	
+			</blocks>
+		</wb:container>
+		
+		<!-- 
+			below: to be able to transfer wysiwyg content between template changes, 
+			include a page wysiwyg block inside a container named the same the container the wysiwyg exists in 
+			Add block to container:
+		-->
+		<wb:container ID="contentContainer" Class="contentBlock_9" runat="server">
+			<blocks>
+				<wb:block BlockID="1093" Class="" SortOrder="0" runat="server"/>
+				<wb:block BlockID="1102" Class="" SortOrder="1" runat="server"/>
+				<wb:block BlockType="PageWysiwygBlock" Class="grid_9 bodyText" SortOrder="2" runat="server" />
+			</blocks>
+		</wb:container>
+		
+		<div class="clear"></div>
+	</div>
+</asp:content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Global</Name>
+      <Alias>Global</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<title><umbraco:Item field="pageTitle" useIfEmpty="pageName" runat="server"></umbraco:Item> - Mentor Web Blocks</title>
+			<umbraco:Item field="metaDescription" insertTextBefore="&lt;meta name=&quot;description&quot; content=&quot;" insertTextAfter="&quot; /&gt;" runat="server"></umbraco:Item>
+			<umbraco:Item field="metaKeywords" insertTextBefore="&lt;meta name=&quot;keywords&quot; content=&quot;" insertTextAfter="&quot;/&gt;" runat="server"></umbraco:Item>
+			<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+			
+			<!-- STYLESHEETS ====================================================================================== -->
+			<link type="text/css" rel="stylesheet" href="/css/960.css" />
+    		<link type="text/css" rel="stylesheet" href="/css/global.css" />
+			<!-- ================================================================================================== -->
+			
+			<!-- JAVASCRIPT ======================================================================================= -->
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+			<script type="text/javascript" src="/scripts/flexslider.js"></script>
+			<script type="text/javascript" src="/scripts/application.js"></script>
+			<!-- ================================================================================================== -->
+			
+			<asp:ContentPlaceHolder Id="Head" runat="server" />
+		</head>
+		
+		<body>
+			<form id="Form1" runat="server">
+				<!-- HEADER ========================================================================================== -->
+				<div class="siteHeader">
+				  <div class="container_12 clearfix">
+					  <div class="grid_4">
+						  <a href="/" class="siteLogo">Sterile Barrier Association - Protecting the Patient</a>
+					  </div>
+					  
+					  <div class="grid_6 push_2" align="right">
+						  <br/>
+						  <h4>
+							  Contact <a target="_blank" href="http://www.mentordigital.co.uk/" title="Mentor Digital is a full service digital agency based in Bristol. We offer web design, software development, digital media &amp; video production services to clients in Bristol, and across the UK.">Mentor Digital</a> for bespoke umbraco development, design and support<br/>
+							  <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#109;&#101;&#110;&#116;&#111;&#114;&#100;&#105;&#103;&#105;&#116;&#097;&#108;&#046;&#099;&#111;&#046;&#117;&#107;?Subject=Umbraco%20web%20development">&#105;&#110;&#102;&#111;&#064;&#109;&#101;&#110;&#116;&#111;&#114;&#100;&#105;&#103;&#105;&#116;&#097;&#108;&#046;&#099;&#111;&#046;&#117;&#107;</a>
+						  </h4>
+						  
+					  </div>
+					  
+					  <div class="grid_12 navMain">
+						  <umbraco:Macro UlClass="clearfix" Alias="MainNavigation" runat="server"></umbraco:Macro>
+					  </div>
+				  </div>
+				</div>
+				<!-- ================================================================================================= -->
+				
+				<!-- CONTENT ========================================================================================= -->
+				<div class="siteContent">
+					<asp:ContentPlaceHolder ID="LayoutContent" runat="server">
+							
+					</asp:ContentPlaceHolder>
+				</div>
+				<!-- ================================================================================================= -->
+				
+				<!-- FOOTER ========================================================================================== -->
+				<div class="siteFooter">
+					<div class="container_12 clearfix">
+						<div class="grid_6 clearfix">
+							<umbraco:Macro Alias="FooterLinks" runat="server"></umbraco:Macro>
+						</div>
+						
+						<div class="grid_4 push_2">
+							<strong>MENTOR WEB BLOCKS RUNWAY SITE</strong>
+						</div>
+						
+						<div class="grid_12">
+							<a target="_blank" href="http://www.mentordigital.co.uk/" title="Mentor Digital is a full service digital agency based in Bristol. We offer web design, software development, digital media &amp; video production services to clients in Bristol, and across the UK.">Web Design</a>
+						</div>
+					</div>
+				</div>
+				<!-- ================================================================================================= -->
+			</form>
+		</body>
+		
+	</html>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Homepage</Name>
+      <Alias>Homepage</Alias>
+      <Master>Global</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Global.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="LayoutContent" runat="server">
+	<div class="container_12">		
+		<wb:container ID="sliderContainer" Class="contentBlock_12" runat="server">
+			<blocks>
+				
+			</blocks>
+		</wb:container>
+		
+		<wb:container ID="widgetContainer" Class="contentBlock_12" runat="server">
+			<blocks>
+			</blocks>
+		</wb:container>
+		
+		<!-- 
+			below: to be able to transfer wysiwyg content between template changes, 
+			include a page wysiwyg block inside a container named the same the container the wysiwyg exists in 
+		-->
+		<wb:container ID="contentContainer" Class="contentBlock_12" runat="server">
+			<blocks>
+				<wb:block BlockType="PageWysiwygBlock" runat="server" Class="grid_9 bodyText" SortOrder="2" />
+			</blocks>
+		</wb:container>
+		
+		<div class="clear"></div>
+	</div>
+</asp:content>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>960</Name>
+      <FileName>960</FileName>
+      <Content><![CDATA[/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/*
+	Forces backgrounds to span full width,
+	even if there is horizontal scrolling.
+	Increase this if your layout is wider.
+	
+	Note: IE6 works fine without this fix.
+	
+	
+	MENTOR WEB BLOCKS -----------------------------------------------------
+	This has been modified by Mentor Digital with new Column Classes (contentBlock) 
+	to allow self column management of grids.
+	
+	With this update you'll be able to add grid blocks within "Content Block" columns
+	so your blocks will only stay within that column.
+	
+	
+	EXAMPLE OF STUCTURE IN MARKUP
+
+	<div class="container_12">
+		<div class="contentBlock_3">
+			<div class="grid_3">
+				eg. Navigation Block
+			</div>
+
+			<div class="grid_3">
+				eg. Widget Block
+			</div>
+		</div>
+
+		<div class="contentBlock_9">
+			<div class="grid_9">
+				eg. Title Block
+			</div>
+
+			<div class="grid_9">
+				eg. WYSIWYG Block
+			</div>
+		</div>
+	</div>
+	-----------------------------------------------------------------------
+*/
+
+body { min-width:980px; }
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 { margin-left:auto; margin-right:auto; width:960px; }
+
+
+/* Content Blocks
+----------------------------------------------------------------------------------------------------*/
+.contentBlock_1, .contentBlock_2, .contentBlock_3, .contentBlock_4, .contentBlock_5, .contentBlock_6, 
+.contentBlock_7, .contentBlock_8, .contentBlock_9, .contentBlock_10, .contentBlock_11, .contentBlock_12 {
+  height:auto; float:left; *margin-bottom:20px;
+}
+
+.contentBlock_1 { width:80px; }
+.contentBlock_2 { width:160px; }
+.contentBlock_3 { width:240px; }
+.contentBlock_4 { width:320px; }
+.contentBlock_5 { width:400px; }
+.contentBlock_6 { width:480px; }
+.contentBlock_7 { width:560px; }
+.contentBlock_8 { width:640px; }
+.contentBlock_9 { width:720px; }
+.contentBlock_10 { width:800px; }
+.contentBlock_11 { width:880px; }
+.contentBlock_12 { width:960px; }
+
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_4Half, .grid_5, .grid_6,
+.grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  display:inline; float:left; position:relative; 
+  margin-left:10px; margin-right:10px; margin-bottom:20px;
+}
+
+.push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4,
+.push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8,
+.push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .push_12, .pull_12 {
+  position:relative;
+}
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.alpha { margin-left:0 !important; }
+.omega { margin-right:0 !important; }
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .grid_1 { width:60px; }
+.container_12 .grid_2 { width:140px; }
+.container_12 .grid_3 { width:220px; }
+.container_12 .grid_4 { width:300px; }
+.container_12 .grid_4Half { width:340px; }
+.container_12 .grid_5 { width:380px; }
+.container_12 .grid_6 { width:460px; }
+.container_12 .grid_7 { width:540px; }
+.container_12 .grid_8 { width:620px; }
+.container_12 .grid_9 { width:700px; } 
+.container_12 .grid_10 { width:780px; }
+.container_12 .grid_11 { width:860px; }
+.container_12 .grid_12 { width:940px; }
+
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .prefix_1 { padding-left:80px; }
+.container_12 .prefix_2 { padding-left:160px; }
+.container_12 .prefix_3 { padding-left:240px; }
+.container_12 .prefix_4 { padding-left:320px; }
+.container_12 .prefix_5 { padding-left:400px; }
+.container_12 .prefix_6 { padding-left:480px; }
+.container_12 .prefix_7 { padding-left:560px; }
+.container_12 .prefix_8 { padding-left:640px; }
+.container_12 .prefix_9 { padding-left:720px; }
+.container_12 .prefix_10 { padding-left:800px; }
+.container_12 .prefix_11 { padding-left:880px; }
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .suffix_1 { padding-right:80px; }
+.container_12 .suffix_2 { padding-right:160px; }
+.container_12 .suffix_3 { padding-right:240px; }
+.container_12 .suffix_4 { padding-right:320px; }
+.container_12 .suffix_5 { padding-right:400px; }
+.container_12 .suffix_6 { padding-right:480px; }
+.container_12 .suffix_7 { padding-right:560px; }
+.container_12 .suffix_8 { padding-right:640px; }
+.container_12 .suffix_9 { padding-right:720px; }
+.container_12 .suffix_10 { padding-right:800px; }
+.container_12 .suffix_11 { padding-right:880px; }
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .push_1 { left:80px; }
+.container_12 .push_2 { left:160px; }
+.container_12 .push_3 { left:240px; }
+.container_12 .push_4 { left:320px; }
+.container_12 .push_5 { left:400px; }
+.container_12 .push_6 { left:480px; }
+.container_12 .push_7 { left:560px; }
+.container_12 .push_8 { left:640px; }
+.container_12 .push_9 { left:720px; }
+.container_12 .push_10 { left:800px; }
+.container_12 .push_11 { left:880px; }
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .pull_1 { left:-80px; }
+.container_12 .pull_2 { left:-160px; }
+.container_12 .pull_3 { left:-240px; }
+.container_12 .pull_4 { left:-320px; }
+.container_12 .pull_5 { left:-400px; }
+.container_12 .pull_6 { left:-480px; }
+.container_12 .pull_7 { left:-560px; }
+.container_12 .pull_8 { left:-640px; }
+.container_12 .pull_9 { left:-720px; }
+.container_12 .pull_10 { left:-800px; }
+.container_12 .pull_11 { left:-880px; }
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  width:0 !important; height:0 !important; margin:0 !important; padding:0 !important; display:block !important;
+  visibility:hidden !important; float:none !important; clear:both !important; overflow:hidden !important;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before, .clearfix:after {
+  content:'\0020'; display:block; overflow:hidden; visibility:hidden; width:0; height:0;
+}
+.clearfix:after { clear:both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix { zoom:1; }
+
+
+
+
+
+
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>global</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[@import "wysiwyg.css";	
+
+/* COLOURS PALLETE ======================================================================================
+Body Text     #666666
+====================================================================================================== */
+
+/* GENERIC STYLES ==================================================================================== */
+body { background-color:#283F81; }
+
+.noBottomMargin { margin-bottom:0px !important; }
+.marginBottomTen { margin-bottom:10px !important; }
+.paddingTen { padding:10px; }
+
+.siteContent { padding:20px 0 10px; background:#FFF; }
+/* =================================================================================================== */
+
+/* HEADER ============================================================================================ */
+.siteHeader { background:#FFF; }
+.siteHeader > div > div { margin-bottom:0; }
+
+/* LOGO --------------------------------------- */
+.siteHeader .siteLogo { 
+  width:224px; height:140px; margin:10px 0 10px -4px; display:block; overflow:hidden;
+  background:url(/images/logo.png) no-repeat 0 0; text-indent:-999px;
+}
+/* -------------------------------------------- */
+
+/* MAIN NAVIGATION ---------------------------- */
+.siteHeader .navMain { height:50px; border-bottom:2px solid #283F81; }
+.siteHeader .navMain > ul { width:100%; height:50px; margin:0; padding:0; display:block; list-style:none; background:#F6F6F6; border-radius:3px 3px 0 0; }
+.siteHeader .navMain > ul > li { 
+  width:auto; height:50px; line-height:50px; display:block; float:left; list-style:none;
+  border-left:1px solid #E5E5E5; color:#888; text-transform:uppercase;
+}
+.siteHeader .navMain > ul > li:first-child { border-left:none; }
+.siteHeader .navMain > ul > li:first-child > a { border-left:none; }
+.siteHeader .navMain > ul > li > a { padding:0 10px; display:block; position:relative; color:#888; font-size:13px; font-weight:600; }
+.siteHeader .navMain > ul > li > a:hover { border-bottom:2px solid #0080FF; color:#283F81; }
+.siteHeader .navMain > ul > li.selected > a { border-bottom:2px solid #0080FF; color:#283F81; }
+/* -------------------------------------------- */
+/* =================================================================================================== */
+
+/* FOOTER ============================================================================================ */
+.siteFooter { padding:20px 0; font-size:13px; }
+.siteFooter a { color:#B1B1CC; }
+.siteFooter a:hover { color:#FFF; }
+.siteFooter strong { color:#ECECFB; }
+
+.siteFooter .grid_6 > ul { width:140px; height:auto; margin-left:20px; display:block; float:left; list-style:none; }
+.siteFooter .grid_6 > ul:first-child { margin-left:0; }
+.siteFooter .grid_6 > ul > li { margin-top:5px; display:block; list-style:none; }
+.siteFooter .grid_6 > ul > li:first-child { margin:0 0 10px; font-weight:700; text-transform:uppercase; }
+.siteFooter .grid_6 > ul > li:first-child > a { color:#ECECFB; }
+.siteFooter .grid_6 > ul > li:first-child > a { color:#FFF; }
+.siteFooter .grid_6 > ul > li > a { display:block; }
+
+.siteFooter .grid_4 { text-align:right; }
+
+.siteFooter .grid_12 { margin-bottom:0px; padding-top:10px; font-size:11px; line-height:16px; }
+/* =================================================================================================== */
+
+/* SITE BLOCKS ======================================================================================= */
+/* SITE BLOCK STRUCTURE ----------------------- */
+.siteBlock { 
+  padding:1px 0 10px; position:relative; outline/*\**/:1px solid #E9E9E9 \9; 
+  -webkit-box-shadow:0 1px 5px #D6D6D6; -moz-box-shadow:0 1px 5px #D6D6D6; box-shadow:0 1px 5px #D6D6D6;
+}
+@media screen and (min-width:0\0) { .siteBlock { outline:none; } }
+.siteBlock > div { padding-top:10px;  }
+.siteBlock > div:first-child { padding-top:0; }
+
+/* Block Title */
+.siteBlock > .blockTitle {
+  margin:2px 3px 0; padding:7px; font-size:14px; line-height:16px; font-weight:600; color:#FFF; text-transform:uppercase; text-shadow:0 1px 1px rgba(0,0,0,0.25);
+  background: #2672D1; *background: #2672D1 !important;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2NzJkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNjQ3YjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #2672d1 0%, #2647b0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2672d1), color-stop(100%,#2647b0));
+  background: -webkit-linear-gradient(top,  #2672d1 0%,#2647b0 100%);
+  background: -o-linear-gradient(top,  #2672d1 0%,#2647b0 100%);
+  background: -ms-linear-gradient(top,  #2672d1 0%,#2647b0 100%);
+  background: linear-gradient(to bottom,  #2672d1 0%,#2647b0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2672d1', endColorstr='#2647b0',GradientType=0 );
+}
+.siteBlock > div:first-child.blockTitle { padding:7px; }
+.siteBlock > .blockTitle > a { display:block; color:#FFF; }
+.siteBlock > .blockTitle > a:hover { color:#FFF; }
+
+/* Block Image */
+.siteBlock > .blockImage { height:100px; margin:0 3px; padding-top:0; overflow:hidden; }
+.siteBlock > div:first-child.blockImage { margin-top:2px; }
+.siteBlock > div:first-child.blockImage + .blockTitle { margin:0 3px 0; font-size:16px; line-height:20px; }
+.siteBlock > .blockImage img { width:100%; display:block; }
+.siteBlock > .blockImage > a { display:block; }
+
+/* Block Content */
+.siteBlock > .blockContent { margin:0 3px; padding-left:7px; padding-right:7px; }
+.siteBlock > .blockContent > p { padding:10px 0 0; }
+.siteBlock > .blockContent > p:first-child { padding:0; }
+.siteBlock > .blockContent > p + ul { padding-top:5px; }
+.siteBlock > .blockContent > ul { margin:0; padding:0; display:block; list-style:none; }
+.siteBlock > .blockContent > ul > li { 
+  margin-top:2px; display:block; list-style:none;
+}
+.siteBlock > .blockContent > ul > li:first-child { margin:0; }
+.siteBlock > .blockContent > ul > li > a {  }
+
+/* Block Link */
+.siteBlock > .blockLink { margin:0 3px 5px; padding-left:7px; padding-right:7px; }
+.siteBlock > .blockLink > a:first-child, .blockLink > input:first-child { 
+  padding:0 10px 0 0; float:left; background:transparent url(../images/arrow_greenSmall.png) no-repeat right center; filter:none; 
+  color:#6FA222; font-weight:700; text-shadow:none;
+}
+.siteBlock > .blockLink > input:first-child {  }
+.siteBlock > .blockLink > a:first-child:hover, .blockContent > .blockLink > input:first-child:hover { opacity:0.6; }
+
+.blockLink { margin:0 3px; padding-left:7px; padding-right:7px; }
+.blockLink > a:first-child, .blockLink > input:first-child { 
+  width:auto; height:auto; line-height:13px; padding:10px; display:block; float:right; cursor:pointer; opacity:1;
+  color:#FFF; font-size:13px; font-weight:600; text-transform:uppercase; text-shadow:0 1px 1px rgba(0,0,0,0.25);
+  background: #a5c522;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E1YzUyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZGExMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #a5c522 0%, #6da122 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5c522), color-stop(100%,#6da122));
+  background: -webkit-linear-gradient(top,  #a5c522 0%,#6da122 100%);
+  background: -o-linear-gradient(top,  #a5c522 0%,#6da122 100%);
+  background: -ms-linear-gradient(top,  #a5c522 0%,#6da122 100%);
+  background: linear-gradient(to bottom,  #a5c522 0%,#6da122 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5c522', endColorstr='#6da122',GradientType=0 );
+}
+.blockLink > input:first-child {  }
+.blockLink.left > a:first-child, .blockLink.left > input:first-child { float:left !important; }
+.blockLink > a:first-child:hover, .blockLink > input:first-child:hover { opacity:0.85; }
+/* -------------------------------------------- */
+/* =================================================================================================== */
+
+/* SLIDER ============================================================================================ */
+/* SLIDER BASE -------------------------------- */
+.flexslider { margin:0; padding:0; position:relative; zoom:1; }
+.flexslider .flex-viewport { max-height:2000px; -webkit-transition:all 1s ease; -moz-transition:all 1s ease; transition:all 1s ease; }
+.flexslider .slides { margin:0; padding:0; height:1%; display:block; list-style:none; zoom:1; }
+.flexslider .slides:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0; } 
+.flexslider .slides > li { width:100%; height:330px; display:none; position:relative; overflow:hidden; }
+.flexslider .slides > li:first-child { display:block; }
+.flexslider .slides > li img { width:100%; display:block; }
+.flexslider .flex-pauseplay span { text-transform:capitalize; }
+
+.flexslider .flex-direction-nav { width:100%; height:auto; margin:0; padding:0; position:absolute; bottom:10px; left:0; list-style:none; }
+.flexslider .flex-direction-nav li {  }
+.flexslider .flex-direction-nav li a { 
+  width:15px; height:15px; line-height:15px; display:block; position:absolute; bottom:0; cursor:pointer; 
+  color:#000; font-size:24px; font-weight:bold; text-decoration:none;
+  -webkit-transition:color 0.15s ease; -moz-transition:color 0.15s ease; transition:color 0.15s ease;
+}
+.flexslider .flex-direction-nav li a:hover { color:#39C; }
+.flexslider .flex-direction-nav li a.flex-next { right:10px; }
+.flexslider .flex-direction-nav li a.flex-prev { left:10px; }
+
+.flexslider .flex-control-nav { width:auto; height:12px; line-height:12px; margin:0; padding:0; position:absolute; bottom:10px; right:10px; list-style:none; text-align:left; }
+.flexslider .flex-control-nav li { margin:0 0 0 5px; display:inline-block; zoom:1; *display:inline; }
+.flexslider .flex-control-nav li:first-child { margin-left:0px; }
+.flexslider .flex-control-nav li a {
+  width:12px; height:12px; display:block; overflow:hidden; text-indent:999px; 
+  border-radius:10px; background:#283F81; cursor:pointer;
+  -webkit-transition:all 0.15s ease; -moz-transition:all 0.15s ease; transition:all 0.15s ease;
+}
+.flexslider .flex-control-nav li a:hover { background:#0080FF; }
+.flexslider .flex-control-nav li a.flex-active { background:#0080FF; opacity:1; filter:alpha(opacity=100); }
+/* -------------------------------------------- */
+
+/* HOME SLIDER -------------------------------- */
+.homeSlider .flexslider {  }
+.homeSlider .flexslider .slides {  }
+.homeSlider .flexslider .slides > li { height:300px; }
+.homeSlider .flexslider .slides > li > span { 
+  width:100%; height:auto; display:block; position:absolute; bottom:0; left:0; background:rgba(0,0,0,0.6);
+}
+.homeSlider .flexslider .slides > li > span > .sliderText { padding:10px 100px 10px 10px; color:#FFF; font-size:14px; font-weight:400; text-shadow:0 1px 2px rgba(0,0,0,0.8); }
+.homeSlider .flexslider .slides > li > span > .sliderText > .title { font-size:24px; line-height:30px; font-weight:300; text-transform:uppercase; }
+.homeSlider .flexslider .slides > li > span > .sliderText > .title a { color:#FFF; }
+/* -------------------------------------------- */
+/* =================================================================================================== */
+
+/* BREADCRUMB NAV + HEADING BLOCK ==================================================================== */
+/* HEADING TEXT ------------------------------- */
+.bodyHeading { width:100%; margin-bottom:20px; display:inline; position:relative; float:left; }
+.bodyHeading > div { margin:0 10px; position:relative; border-bottom:1px dotted #0080FF; }
+.bodyHeading > div > h1 { padding-bottom:10px; }
+/* -------------------------------------------- */
+
+/* BREADCRUMB NAV ----------------------------- */
+.breadcrumbNav { width:100%; margin-bottom:20px; padding-bottom:10px; display:inline; position:relative; float:left; }
+.breadcrumbNav > ul { *height:18px; margin:0 10px; display:block; position:relative; list-style:none; }
+.breadcrumbNav > ul > li { 
+  padding-left:5px; display:block; float:left; list-style:none; color:#6FA222; font-size:13px; font-weight:600; 
+}
+.breadcrumbNav > ul > li:first-child { padding:0; }
+.breadcrumbNav > ul > li > span { padding-left:5px; }
+.breadcrumbNav > ul > li > a { color:#777; font-weight:500; }
+.breadcrumbNav > ul > li > a:hover { color:#A5C522; }
+/* -------------------------------------------- */
+
+/* POSITIONING -------------------------------- */
+.bodyHeading + .breadcrumbNav { margin-top:-15px; padding:0; border:none; }
+/* -------------------------------------------- */
+/* =================================================================================================== */
+
+/* SUB NAV =========================================================================================== */
+.subnav {  }
+.subnav > li ul li { padding-left:10px; list-style:none; }
+
+.subnav li.selected > a { text-decoration:underline; }
+/* =================================================================================================== */
+
+/* BLOCKS ============================================================================================== */
+/* HOME FEATURE ------------------------------- */
+.featureBlock { }
+.featureBlock > .blockImage { height:130px; }
+.featureBlock > .blockImage img { width:100%; height:auto; }
+.featureBlock > .blockTitle { font-size:14px; }
+/* -------------------------------------------- */
+
+/* CONTACT BLOCK ------------------------------ */
+.contactForm { 
+  padding:1px 0 10px; position:relative; outline/*\**/:1px solid #E9E9E9 \9; 
+  -webkit-box-shadow:0 1px 5px #D6D6D6; -moz-box-shadow:0 1px 5px #D6D6D6; box-shadow:0 1px 5px #D6D6D6;
+}
+@media screen and (min-width:0\0) { .contactForm { outline:none; } }
+.contactForm > div { padding:10px 10px 0; zoom:1; }
+.contactForm > div:before, .contactForm > div:after { content:'\0020'; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+.contactForm > div:after { clear:both; }
+.contactForm > div > span { width:20%; height:30px; line-height:30px; margin-right:2%; display:block; float:left; font-size:14px; }
+.contactForm > div > input[type="text"], .contactForm > div > textarea { 
+	width:76%; height:30px; margin:0; padding:0 1%; display:block; float:left; border:none; outline:1px solid #E0E0E0; background:#EEE;
+	font-family:'Open Sans', Helvetica, sans-serif; font-size:12px; line-height:18px; color:#666;
+   -webkit-transition:all 0.15s ease; -moz-transition:all 0.15s ease; -o-transition:all 0.15s ease; transition:all 0.15s ease; 
+}
+.contactForm > div > textarea { height:50px; padding:1%; }
+.contactForm > div > input[type="text"]:focus, .contactForm > div > textarea:focus { background:#F3F3F3; outline:1px solid rgb(194, 215, 252); }
+.contactForm > div > input[type="submit"] { 
+	float:right; font-family:'Open Sans', Helvetica, sans-serif; font-size:18px; font-weight:600;
+}
+/* -------------------------------------------- */
+/* =================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>reset</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[/* css reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;margin:0;padding:0;font-size:100%}html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}q{quotes:none}q:before,q:after{content:'';content:none}sub,sup,small{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}svg{overflow:hidden}
+
+
+
+]]></Content>
+      <Properties>
+        <Property>
+          <Name>test</Name>
+          <Alias>test</Alias>
+          <Value>
+          </Value>
+        </Property>
+      </Properties>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>wysiwyg</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[@import "reset.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,600,700,800,300);
+
+
+/* UMBRACO BLOCK BUILDER OVERRIDES =================================================================== */
+/* To allow web block builder to correctly display fonts on builder editor */
+body.umbracoPage #webBlocksWrapper #canvas { 
+	font-family:'Open Sans', Helvetica, sans-serif; font-size:12px; line-height:18px; color:#666; 
+}
+
+/* TINYMCE Visual - DO NOT REMOVE */
+body.mceContentBody { margin:8px !important; }
+/* =================================================================================================== */
+
+
+/* SITE TEXT STYLES ================================================================================== */	
+body { font-family:'Open Sans', Helvetica, sans-serif; font-size:12px; line-height:18px; color:#666; }
+* { -webkit-font-smoothing:antialiased; } 
+	
+h1 { margin:0; font-size:30px; font-weight:300; line-height:35px; color:#283F81; }
+h2 { margin:0 0 5px 0; font-size:22px; font-weight:bold; line-height:25px; color:#333; }
+h3 { margin:0; font-size:18px; font-weight:bold; line-height:22px; color:#333; }
+h4 { margin:0; font-size:16px; font-weight:bold; line-height:18px; color:#333; }
+h5 {  }
+h6 {  }
+a, a:link, a:visited, a:active {
+   color:#6FA222; text-decoration:none; 
+   -webkit-transition:all 0.15s ease; -moz-transition:all 0.15s ease; -o-transition:all 0.15s ease; transition:all 0.15s ease; 
+}
+a:hover { color:#A5C522; text-decoration:underline; }
+p { padding-bottom:10px; }
+b, strong { font-weight:700; }
+/* =================================================================================================== */
+
+
+
+
+
+
+
+
+
+]]></Content>
+      <Properties>
+        <Property>
+          <Name>Heading 2</Name>
+          <Alias>h2</Alias>
+          <Value>
+          </Value>
+        </Property>
+        <Property>
+          <Name>Heading 3</Name>
+          <Alias>h3</Alias>
+          <Value>
+          </Value>
+        </Property>
+        <Property>
+          <Name>Heading 4</Name>
+          <Alias>h4</Alias>
+          <Value>
+          </Value>
+        </Property>
+        <Property>
+          <Name>Paragraph</Name>
+          <Alias>p</Alias>
+          <Value>
+          </Value>
+        </Property>
+      </Properties>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Web Blocks: Layout Builder" Id="849f2844-33c5-45d6-870c-87aa7e51d55e" Definition="e69df26a-7801-4e76-9f79-b9a6acec5c23">
+      <PreValues>
+        <PreValue Id="5" Value="1060" />
+        <PreValue Id="6" Value="" />
+      </PreValues>
+    </DataType>
+    <DataType Name="Web Blocks: Razor Script Picker" Id="d15e1281-e456-4b24-aa86-1dda3e4299d5" Definition="abb7b0b5-61d1-42b6-829d-84f8d2c9ce73">
+      <PreValues>
+        <PreValue Id="7" Value="~/usercontrols/webblocks/datatypes/General/RazorScriptPicker.ascx" />
+      </PreValues>
+    </DataType>
+    <DataType Name="Web Blocks: Usercontrol Property Setter" Id="d15e1281-e456-4b24-aa86-1dda3e4299d5" Definition="96d67d06-58ad-49d0-8fdc-d4beb365e611">
+      <PreValues>
+        <PreValue Id="8" Value="~/usercontrols/webblocks/datatypes/General/UserControlPropertySetter.ascx" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+  <control>/umbraco/plugins/webblocks/installer.ascx</control>
+</umbPackage>

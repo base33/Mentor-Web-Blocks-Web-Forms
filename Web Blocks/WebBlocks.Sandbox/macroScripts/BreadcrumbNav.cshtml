@@ -1,0 +1,28 @@
+﻿@*
+BREADCRUMB
+=================================
+This snippet makes a breadcrumb of parents using an unordred html list.
+
+How it works:
+- It uses the Ancestors() method to get all parents and then generates links so the visitor get go back
+- Finally it outputs the name of the current page (without a link)
+  
+NOTE: It is safe to remove this comment (anything between @ * * @), the code that generates the list is only the below!
+*@
+
+@inherits umbraco.MacroEngines.DynamicNodeContext
+	
+@{
+	dynamic currentPage = @WebBlocks.GetCurrentNode();
+	WebBlocks.AddBlockClass("breadcrumbNav");
+}	
+	
+<ul>
+	@foreach(var level in @currentPage.Ancestors().Where("Visible"))
+	{
+		<li><a href="@level.Url">@level.Name</a><span>&gt;</span></li>
+	}
+	<li>@currentPage.Name</li>
+	<li class="clear"></li>
+</ul>
+

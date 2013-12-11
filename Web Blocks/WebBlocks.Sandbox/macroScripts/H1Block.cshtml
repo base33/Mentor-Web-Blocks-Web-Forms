@@ -1,0 +1,8 @@
+﻿@{
+ 	dynamic currentPage = @WebBlocks.GetCurrentNode();
+	WebBlocks.AddBlockClass("bodyHeading");
+}
+
+<div>
+	<h1>@currentPage.Name</h1>
+</div>

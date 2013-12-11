@@ -1,0 +1,75 @@
+﻿/****
+    Mentor Web Blocks for Umbraco
+    Copyright (C) 2013 Mentor Digital 
+    (Mentor Communications Consultancy Ltd, 4 West End, Somerset Street, Bristol, BS2 8NE)
+    
+
+    This program is free software; you can redistribute it and/or modify it under the terms of the 
+    GNU General Public License as published by the Free Software Foundation; either version 2 of the 
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without 
+    even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General 
+    Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program; if not, 
+    write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+****/
+/* Umbraco Page
+------------------------------------------ */
+
+
+/* Generic Styles 
+------------------------------------------ */
+ {}
+ img { border: none; }
+ select { margin: 0 0 10px 0; display: block; font-size: 10pt; padding: 2px; }
+
+/* Canvas. Negative padding bottom to fix overflow IE7 bug. 
+------------------------------------------- */
+ #outerCanvas  { clear: both; width: 100%; display: block; background: white; border: 1px solid black; min-height: 300px; padding: 0 5px; overflow: auto; height: auto; margin: 0px 0px 10px 0px; text-align: center; }
+ #canvas { margin: 15px auto; width: 960px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left; }
+
+#builderMenu { position: fixed; top: 28px; left: 100px; z-index: 9999; }
+#builderMenu ul { margin: 0px; padding: 0px; list-style: none; }
+#builderMenu ul li { float: left; padding: 0px 2px; cursor: pointer; list-style-type: none; }
+#builderMenu ul li img { vertical-align: middle; height: 20px; border: none; }
+
+/* Containers
+------------------------------------------ */
+.container,  .wbcontainer { min-height: 120px; outline: dashed 1px #666; *border: dashed 1px #666 !important; margin-bottom: 20px; }
+.clearfix { clear: both; height: 0px; font-size: 0px; }
+.divider { border-bottom:1px solid #ccc; height:1px;  margin-bottom:10px; margin-top:10px; }
+
+.block { min-height:20px; *height:auto !important; *height:20px; margin-bottom:20px !important; position:relative; overflow:visible; float:left !important; }
+
+.containerHover { background: #ffffbb; }
+
+/* Blocks
+------------------------------------------ */
+.block,  .outerBlock { 
+	opacity: 0.5; filter:alpha(opacity=50); cursor: move; overflow: hidden; 
+	-webkit-transition:opacity 0.15s ease; -moz-transition:opacity 0.15s ease; -o-transition:opacity 0.15s ease; transition:opacity 0.15s ease;
+}
+.block:hover,  .block:focus,  .outerBlock:hover,  .outerBlock:focus { opacity: 1.0; filter:alpha(opacity=100); }
+.wysiwygOff { background: #e8e8e8 url('/umbraco/plugins/webblocks/images/wysiwygOff.jpg') no-repeat top center; text-align: center; font-size: 12pt; line-height: 120px; height: 120px !important; margin-bottom: 0px !important; overflow: hidden !important; }
+
+/* Tinymce editor
+------------------------------------------ */
+.ui-dialog #tinymce
+{
+    text-align: left;
+    padding-top: 40px !important;
+}
+
+.ui-dialog button { float: right; padding: 8px; }
+
+.ui-dialog #tinymce .tinymceMenuBar{ text-align: left; padding-left: 0 !important; margin-left: 0 !important; position: static !important; width: auto !important; }
+
+.ui-dialog .mceToolbarExternal { display:none; position: absolute !important; left: 0px !important; top: 5px !important; z-index: 100 !important; }
+
+
+/* Builder classes. 
+------------------------------------------ */
+ .iframePopup iframe { width: 860px; height: 600px; border: none; }
+ .iframePopup { display: none; }

@@ -1,0 +1,766 @@
+2013-10-16 14:42:06,342 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-16 14:42:06,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-16 14:42:06,369 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 6ms)
+2013-10-16 14:42:06,466 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 92ms)
+2013-10-16 14:42:06,473 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-16 14:42:06,482 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2013-10-16 14:42:06,484 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-16 14:42:06,502 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-16 14:42:06,543 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 197ms)
+2013-10-16 14:42:06,561 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2013-10-16 14:42:06,832 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-16 14:42:11,668 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2013-10-16 14:42:12,398 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-16 14:42:29,119 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 5] Error executing query UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:29,814 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:29,841 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:46,373 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:46,373 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,103 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 11] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,103 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,596 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,596 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,636 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 11] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,636 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,671 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 5] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,671 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,702 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 11] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,702 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,734 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 5] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,734 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,765 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,765 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,803 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 5] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,803 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:47,837 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:47,837 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:48,776 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 5] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:48,776 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:48,929 [10] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:42:48,929 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.p2e9boaj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:42:50,864 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 5] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-16 14:42:58,947 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-16 14:42:58,965 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-16 14:42:58,972 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 6ms)
+2013-10-16 14:42:59,067 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 89ms)
+2013-10-16 14:42:59,072 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-10-16 14:42:59,076 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-16 14:42:59,079 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-16 14:42:59,085 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-16 14:42:59,107 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 157ms)
+2013-10-16 14:42:59,113 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-16 14:42:59,177 [15] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-16 14:43:00,009 [15] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:43:00,010 [15] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.qdshe04h.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:43:14,875 [15] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 14:43:23,006 [15] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 6] Error executing query UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:43:23,046 [15] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 11] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+2013-10-16 14:43:23,046 [15] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : 048CD22550FECCEC0F993DBC4E7BAEE1CC03405ADEB1916F08F1DC16969558712659561A9CF0CD4BEF083DCDEB03B0E737CF24FF2BB4FC983B94642C426C3D82D251BE9EF2D74FD63DE4760274F4449E25934538C17A6C459E41F0DE81E4EB1D7031154AF15E02792720B0C7F0D7BE6BC5B6231DAE44AC1D5789A9DB5FB6E2071C5E8C86FA72490DEEBFE99DB58437F4A92D14707DFA97315EFC9ED76046EC1974B50A1A10B04F21E80169DAEAE9428809B7827794F1E3EBA1DF80221831B66F7F39D7E99940421B2D12A858A42A4ECAE0D84C4E6DCAF540EB7F64137397C34E28B7F7CA6E5CEDE9CCF5042C82E972DBF28C97633EB27EF2376D41FE1751B1B8ABEF362D8845616AD0CC1E9FBFFC8354C94D7D2993A25AEE2869C16DFB35C17B30C1C9B10123617B1DC44C6D0795FF981378184D0D36350A739020447266766163E7EF7A8DDE2D591A131DA28C8B6D057F92C43F074670AB556D96FDA7518181B4B7CD9F38566936477A48C0F41CB1B8960C8C136546C047342277145A3D7EF47145C0A9ACFC545BE3076818190EF404E777B6230A345277C263FC5EBFD67D9581FD224AE3C6F0C2874A5AC6C06842B0431CB1841BC2793F24B25DA9F3C1FB711BDC7F03DF3757E78FF634C9D29E35C344E113F68FE3047670A70DC3BCAFEE416A3164C1DAF0645F6E5B77312CD408D53C0E85C6C4AC2C32ED6C3C1CB8E6D16BA27141DCEEC3EC55083ED1C05DF86C529D1D2386BD0C530A1AC3B969173B3EDB6559B17F1CC1C0BD2D30F553F5E8256505E14CE95F563074881E7D42F44DEF96603924F111D1F029227F0D15393C560B2826355EDB5D57F20AC7361919D14B19 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 107
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCeApplicationBlock.cs:line 115
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\SQLCE4Umbraco\SqlCEHelper.cs:line 147
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 226
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters) in d:\Google Drive\Dev\UmbracoSource_v4\src\umbraco.datalayer\SqlHelper.cs:line 234
+   at umbraco.BasePages.BasePage.DeleteLogin()
+   at umbraco.BasePages.BasePage.ClearLogin()
+   at umbraco.logout.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_logout_aspx.ProcessRequest(HttpContext context) in c:\Users\Developer\AppData\Local\Temp\Temporary ASP.NET Files\root\7adf9cea\14381ec0\App_Web_logout.aspx.5f2dec3.qdshe04h.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-16 15:01:16,167 [15] INFO  Umbraco.Web.UmbracoApplication - [Thread 34] Application shutdown. Reason: BinDirChangeOrDirectoryRename

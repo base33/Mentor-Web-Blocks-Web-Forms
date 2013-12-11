@@ -1,0 +1,26 @@
+﻿@using umbraco.cms.businesslogic.member;
+
+@{
+  dynamic footerSource = Model.NodeById(WebBlocks.GetCurrentNode().Id).AncestorOrSelf(1);
+  @footerLinkBox(footerSource.footerLinkSelector1);
+  @footerLinkBox(footerSource.footerLinkSelector2);
+  @footerLinkBox(footerSource.footerLinkSelector2);
+} 
+
+@helper footerLinkBox(string currentCol)
+{
+  if (currentCol != string.Empty)
+  {
+    var colString = currentCol.Split(',');   
+    <ul>                            
+      @foreach (var navLink in colString)
+      {
+        var currentLink = Model.NodeById(navLink);
+        var link = currentLink.Url;
+		  
+        string currentPage = (currentLink.Id == Model.Id) ? " class=\"current\"" : "";                                             
+        <li@Html.Raw(currentPage)><a href="@link">@currentLink.Name</a></li> 
+      }
+    </ul>
+  }
+}

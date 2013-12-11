@@ -1,0 +1,14 @@
+2013-10-14 12:17:42,502 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-14 12:17:42,542 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-14 12:17:42,549 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 6ms)
+2013-10-14 12:17:42,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 92ms)
+2013-10-14 12:17:42,652 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-14 12:17:42,661 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2013-10-14 12:17:42,663 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-14 12:17:42,672 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-14 12:17:42,721 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 216ms)
+2013-10-14 12:17:42,729 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2013-10-14 12:17:43,021 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-14 12:17:48,062 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2013-10-14 12:17:48,718 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-14 16:58:16,926 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 6] Application shutdown. Reason: HostingEnvironment

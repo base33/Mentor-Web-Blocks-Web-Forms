@@ -1,0 +1,14 @@
+2013-09-24 14:18:02,673 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application starting
+2013-09-24 14:18:02,764 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2013-09-24 14:18:02,771 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 6ms)
+2013-09-24 14:18:05,067 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2291ms)
+2013-09-24 14:18:05,074 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-09-24 14:18:05,083 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2013-09-24 14:18:05,086 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-09-24 14:18:05,101 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-09-24 14:18:05,189 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 4] Umbraco application startup complete (took 2512ms)
+2013-09-24 14:18:05,196 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-09-24 14:18:05,605 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-09-24 14:18:07,625 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-09-24 14:18:08,146 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-09-24 15:19:48,230 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 43] Application shutdown. Reason: HostingEnvironment

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Global.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Head" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="LayoutContent" runat="server">
+	<div class="container_12">
+		<wb:container ID="leftContatiner" Class="contentBlock_3" runat="server">
+			<blocks>
+				<wb:block BlockID="1110" Class="grid_3" SortOrder="0" runat="server"/>	
+			</blocks>
+		</wb:container>
+		
+		<!-- 
+			below: to be able to transfer wysiwyg content between template changes, 
+			include a page wysiwyg block inside a container named the same the container the wysiwyg exists in 
+		-->
+		<wb:container ID="contentContainer" Class="contentBlock_9" runat="server">
+			<blocks>
+				<wb:block BlockID="1085" Class="" SortOrder="0" runat="server"/>
+				<wb:block BlockID="1086" Class="" SortOrder="1" runat="server"/>
+				<wb:block BlockType="PageWysiwygBlock" Class="grid_9 bodyText" SortOrder="2" runat="server" />
+			</blocks>
+		</wb:container>
+		
+		<div class="clear"></div>
+	</div>
+</asp:content>

@@ -1,0 +1,50 @@
+﻿@* =================================================================================================== **
+MENTOR FLEXSLIDER BLOCK v0.9 : RAZOR SCRIPT
+Author: Mabs Rahman @ Mentor Digital
+** =================================================================================================== *@
+
+@{	
+	@* SET THE WRAPPER CLASS ---------------------- *@
+	@WebBlocks.AddBlockClass("grid_12 homeSlider");
+	@* -------------------------------------------- *@
+	
+	@* SET VARIABLES ------------------------------ *@
+	var rootNode = Model.Children.Where("NodeTypeAlias == \"ImageSlide\"");
+	int totalSlides = rootNode.Count();
+	@* -------------------------------------------- *@
+	
+	@* MARKUP OUTPUT ------------------------------ *@
+	if(totalSlides > 0) {
+		<div class="flexslider">
+			<ul class="slides">
+				@foreach(var slide in rootNode) {
+					string imageUrl = Model.MediaById(slide.image).umbracoFile;
+					string linkUrl = slide.link != "" ? Model.NodeById(slide.link).Url : "";
+					
+					<li>
+						<div>
+							@if(linkUrl != "") { <a href="@linkUrl"><img src="@imageUrl" alt="@slide.title" /></a> }
+							else { <img src="@imageUrl" alt="@slide.title" /> }
+						</div>
+						
+						@if(slide.title != "" || slide.caption != "") {	
+							<span>
+								<div class="sliderText">
+									@if(slide.title != "") {
+										<div class="title">
+											@if(linkUrl != "") { <a href="@linkUrl">@slide.title</a> }
+											else { @slide.title }
+										</div>
+									}
+							
+									@(slide.caption != "" ? slide.caption : "")
+								</div>
+							</span>
+						}
+					</li>
+				}
+			</ul> 
+		</div>
+	}
+	@* -------------------------------------------- *@
+}

@@ -1,0 +1,43 @@
+﻿@* =================================================================================================== **
+MENTOR YOUTUBE BLOCK v0.9 : RAZOR SCRIPT
+Author: Mabs Rahman @ Mentor Digital
+** =================================================================================================== *@
+
+@{	
+	@* SET THE WRAPPER CLASS ---------------------- *@
+	if(Model.classes == "") { 
+		WebBlocks.AddBlockClass("grid_3"); 
+	}
+	@* -------------------------------------------- *@
+	
+	@* SET VARIABLES ------------------------------ *@
+	dynamic currentPage  = WebBlocks.GetCurrentNode();
+	var parentOrSelfTwo = currentPage.AncestorOrSelf(2);
+	var parentOrSelfThree = currentPage.AncestorOrSelf(3);
+	string currentPageClass = "";
+	@* -------------------------------------------- *@
+}
+
+@* MARKUP OUTPUT ------------------------------ *@
+<div class="siteBlock featureBlock">
+	<div class="blockTitle">
+		<a href="@parentOrSelfTwo.Url" @Html.Raw(currentPage.Id == parentOrSelfTwo.Id ? "style=\"text-decoration:underline;\"" : "")>
+			@parentOrSelfTwo.Name
+		</a>
+	</div>
+	
+	@if(parentOrSelfTwo.Children != null && parentOrSelfTwo.Children.Count() > 0) {		
+		<div class="blockContent">
+			<ul class="subnav">
+				@foreach (var pageLink in parentOrSelfTwo.Children.Where("umbracoNaviHide != true")){
+					var currentLoopPage =  currentPage.Id == pageLink.Id ? "selected" : "";
+									
+					<li class="@currentLoopPage">
+						<a href="@pageLink.Url">@pageLink.Name</a>
+					</li>
+				}
+			</ul>		
+		</div>
+	}
+</div>
+@* -------------------------------------------- *@

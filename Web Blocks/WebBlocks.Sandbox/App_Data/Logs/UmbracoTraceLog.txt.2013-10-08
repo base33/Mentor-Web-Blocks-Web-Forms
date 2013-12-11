@@ -1,0 +1,325 @@
+2013-10-08 16:24:20,985 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application starting
+2013-10-08 16:24:21,011 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2013-10-08 16:24:21,016 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 4ms)
+2013-10-08 16:24:21,364 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 342ms)
+2013-10-08 16:24:21,372 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 16:24:21,380 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:24:21,382 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 16:24:21,392 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-08 16:24:21,417 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application startup complete (took 429ms)
+2013-10-08 16:24:21,729 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-08 16:24:21,742 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 16:24:22,326 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2013-10-08 16:24:22,483 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 16:26:29,215 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 11] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 16:26:36,793 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 12] Umbraco application starting
+2013-10-08 16:26:36,810 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Determining hash of code files on disk
+2013-10-08 16:26:36,816 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Hash determined (took 5ms)
+2013-10-08 16:26:36,910 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 87ms)
+2013-10-08 16:26:36,916 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-10-08 16:26:36,920 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:26:36,922 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 16:26:36,926 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-08 16:26:36,948 [14] INFO  Umbraco.Core.CoreBootManager - [Thread 12] Umbraco application startup complete (took 152ms)
+2013-10-08 16:26:36,954 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-08 16:26:37,018 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-08 16:26:41,650 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 16:26:42,341 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 16:27:04,687 [14] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-10-08 16:27:04,729 [14] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 16:27:05,747 [14] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:27:05,748 [14] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:27:05,818 [14] ERROR Umbraco.Web.UmbracoApplication - [Thread 5] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:27:05,838 [14] ERROR Umbraco.Web.UmbracoApplication - [Thread 12] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:27:05,951 [14] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:27:10,905 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 4ms)
+2013-10-08 16:28:15,500 [14] INFO  Umbraco.Web.UmbracoApplication - [Thread 13] Application shutdown. Reason: HostingEnvironment
+2013-10-08 16:28:21,881 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-08 16:28:21,910 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-08 16:28:21,916 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 5ms)
+2013-10-08 16:28:22,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 441ms)
+2013-10-08 16:28:22,368 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 16:28:22,376 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:28:22,379 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-08 16:28:22,386 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-08 16:28:22,410 [10] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 527ms)
+2013-10-08 16:28:22,860 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-08 16:28:22,873 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 16:28:24,748 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 9ms)
+2013-10-08 16:28:24,755 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 16:28:24,873 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 16:28:25,374 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:28:40,524 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2013-10-08 16:28:40,792 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 16:28:46,453 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 9] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:29:12,253 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 11] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:40:37,219 [10] ERROR Umbraco.Web.UmbracoApplication - [Thread 21] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:41:20,845 [10] INFO  Umbraco.Web.UmbracoApplication - [Thread 18] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 16:41:32,078 [22] INFO  Umbraco.Core.CoreBootManager - [Thread 9] Umbraco application starting
+2013-10-08 16:41:32,094 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Determining hash of code files on disk
+2013-10-08 16:41:32,101 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Hash determined (took 6ms)
+2013-10-08 16:41:32,227 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 121ms)
+2013-10-08 16:41:32,234 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-10-08 16:41:32,238 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:41:32,240 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-08 16:41:32,247 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-08 16:41:32,280 [22] INFO  Umbraco.Core.CoreBootManager - [Thread 9] Umbraco application startup complete (took 200ms)
+2013-10-08 16:41:32,289 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-08 16:41:32,377 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-10-08 16:41:37,305 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-08 16:41:37,311 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 16:41:37,412 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 16:41:38,271 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 16:41:47,653 [22] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 16:43:34,803 [22] INFO  Umbraco.Web.UmbracoApplication - [Thread 27] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 16:43:43,855 [30] INFO  Umbraco.Core.CoreBootManager - [Thread 11] Umbraco application starting
+2013-10-08 16:43:43,873 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Determining hash of code files on disk
+2013-10-08 16:43:43,878 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Hash determined (took 5ms)
+2013-10-08 16:43:43,968 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 84ms)
+2013-10-08 16:43:43,972 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 16:43:43,976 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:43:43,977 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 16:43:43,982 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-10-08 16:43:44,002 [30] INFO  Umbraco.Core.CoreBootManager - [Thread 11] Umbraco application startup complete (took 144ms)
+2013-10-08 16:43:44,116 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-08 16:43:44,128 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 16:43:49,043 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 2ms)
+2013-10-08 16:43:49,049 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-10-08 16:43:49,153 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 16:43:49,887 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-10-08 16:43:54,069 [30] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 16:44:29,210 [30] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:54:39,381 [30] INFO  Umbraco.Web.UmbracoApplication - [Thread 17] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 16:55:14,368 [23] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-08 16:55:14,385 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-08 16:55:14,391 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 5ms)
+2013-10-08 16:55:14,489 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 93ms)
+2013-10-08 16:55:14,496 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-10-08 16:55:14,500 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 16:55:14,502 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 16:55:14,507 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-08 16:55:14,527 [23] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 156ms)
+2013-10-08 16:55:14,663 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-08 16:55:14,675 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 16:55:19,084 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-08 16:55:19,090 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 16:55:19,194 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 16:55:19,919 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 16:55:23,785 [23] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 16:56:56,484 [23] INFO  Umbraco.Web.UmbracoApplication - [Thread 6] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 16:57:08,729 [22] INFO  Umbraco.Core.CoreBootManager - [Thread 19] Umbraco application starting
+2013-10-08 16:57:08,746 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Determining hash of code files on disk
+2013-10-08 16:57:08,752 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Hash determined (took 5ms)
+2013-10-08 16:57:08,839 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 83ms)
+2013-10-08 16:57:08,844 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 16:57:08,847 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-10-08 16:57:08,849 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 16:57:08,853 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-08 16:57:08,874 [22] INFO  Umbraco.Core.CoreBootManager - [Thread 19] Umbraco application startup complete (took 142ms)
+2013-10-08 16:57:08,990 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-10-08 16:57:09,001 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 16:57:13,389 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 2ms)
+2013-10-08 16:57:13,396 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 16:57:13,463 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 16:57:14,153 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-10-08 16:57:18,013 [22] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 16:58:01,080 [22] ERROR Umbraco.Web.UmbracoApplication - [Thread 20] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:58:03,995 [22] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:58:04,162 [22] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 16:59:33,933 [22] INFO  Umbraco.Web.UmbracoApplication - [Thread 20] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 17:05:41,884 [16] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application starting
+2013-10-08 17:05:41,902 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2013-10-08 17:05:41,908 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 6ms)
+2013-10-08 17:05:41,999 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 85ms)
+2013-10-08 17:05:42,004 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 17:05:42,007 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 17:05:42,010 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-10-08 17:05:42,014 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-08 17:05:42,034 [16] INFO  Umbraco.Core.CoreBootManager - [Thread 6] Umbraco application startup complete (took 147ms)
+2013-10-08 17:05:42,179 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-08 17:05:42,191 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 17:05:46,457 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 17:05:47,123 [16] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-10-08 17:05:54,532 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 23] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:05:57,281 [16] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-08 17:05:57,288 [16] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 17:05:58,151 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:05:58,308 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 14] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:00,111 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:01,781 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 15] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:04,088 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:16,821 [16] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 17:06:17,088 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 15] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:19,926 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:21,148 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 9] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:06:21,304 [16] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:07:44,406 [16] INFO  Umbraco.Web.UmbracoApplication - [Thread 9] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-10-08 17:07:53,803 [19] INFO  Umbraco.Core.CoreBootManager - [Thread 14] Umbraco application starting
+2013-10-08 17:07:53,821 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2013-10-08 17:07:53,828 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 6ms)
+2013-10-08 17:07:53,921 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 87ms)
+2013-10-08 17:07:53,926 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-10-08 17:07:53,929 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-10-08 17:07:53,931 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-10-08 17:07:53,936 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 1ms)
+2013-10-08 17:07:53,957 [19] INFO  Umbraco.Core.CoreBootManager - [Thread 14] Umbraco application startup complete (took 150ms)
+2013-10-08 17:07:54,064 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2013-10-08 17:07:54,077 [19] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-10-08 17:07:54,237 [19] ERROR Umbraco.Web.UmbracoApplication - [Thread 14] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 56
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:08:03,523 [19] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-10-08 17:08:03,530 [19] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-10-08 17:08:03,626 [19] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-10-08 17:08:04,296 [19] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-10-08 17:08:08,159 [19] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-10-08 17:24:07,044 [19] ERROR Umbraco.Web.UmbracoApplication - [Thread 13] An unhandled exception occurred
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at MImageResizer.ImageResizer.Application_BeginRequest(Object sender, EventArgs e) in C:\Users\Developer\Documents\Mentor Repository\Tenpin\mimageresizer\src\MImageResizer\ImageResizer.cs:line 35
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-08 17:35:11,557 [19] INFO  Umbraco.Web.UmbracoApplication - [Thread 28] Application shutdown. Reason: HostingEnvironment

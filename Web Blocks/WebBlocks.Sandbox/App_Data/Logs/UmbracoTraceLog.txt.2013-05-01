@@ -1,0 +1,650 @@
+2013-05-01 14:35:25,642 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application starting
+2013-05-01 14:35:25,720 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Determining hash of code files on disk
+2013-05-01 14:35:25,752 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Hash determined (took 15ms)
+2013-05-01 14:35:26,017 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 242ms)
+2013-05-01 14:35:26,032 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2013-05-01 14:35:26,048 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2013-05-01 14:35:26,048 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-05-01 14:35:26,064 [36] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 8 (took 2ms)
+2013-05-01 14:35:26,157 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application startup complete (took 499ms)
+2013-05-01 14:35:26,360 [36] ERROR Umbraco.Core.PluginManager - [Thread 18] Error creating type umbraco.presentation.umbraco.Search.ExamineEvents
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Examine.ExamineManager' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Object reference not set to an instance of an object. (E:\development\Applications\WebBlocksReleaseTest\config\ExamineSettings.config line 12) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+   at UmbracoExamine.Config.IndexSetExtensions.ToIndexCriteria(IndexSet set, IDataService svc)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.Initialize(String name, NameValueCollection config)
+   at UmbracoExamine.BaseUmbracoIndexer.Initialize(String name, NameValueCollection config)
+   at UmbracoExamine.UmbracoContentIndexer.Initialize(String name, NameValueCollection config)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProviders(ProviderSettingsCollection configProviders, ProviderCollection providers, Type providerType)
+   at Examine.ExamineManager.LoadProviders()
+   at Examine.ExamineManager..cctor()
+   --- End of inner exception stack trace ---
+   at UmbracoExamine.UmbracoEventManager..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2013-05-01 14:35:26,360 [36] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:26,376 [36] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:26,376 [36] ERROR Umbraco.Core.PluginManager - [Thread 18] Error creating type UmbracoExamine.UmbracoEventManager
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Examine.ExamineManager' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Object reference not set to an instance of an object. (E:\development\Applications\WebBlocksReleaseTest\config\ExamineSettings.config line 12) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+   at UmbracoExamine.Config.IndexSetExtensions.ToIndexCriteria(IndexSet set, IDataService svc)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.Initialize(String name, NameValueCollection config)
+   at UmbracoExamine.BaseUmbracoIndexer.Initialize(String name, NameValueCollection config)
+   at UmbracoExamine.UmbracoContentIndexer.Initialize(String name, NameValueCollection config)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProviders(ProviderSettingsCollection configProviders, ProviderCollection providers, Type providerType)
+   at Examine.ExamineManager.LoadProviders()
+   at Examine.ExamineManager..cctor()
+   --- End of inner exception stack trace ---
+   at UmbracoExamine.UmbracoEventManager..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2013-05-01 14:35:26,610 [36] INFO  Umbraco.Core.ApplicationContext - [Thread 35] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:26,610 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 35] Umbraco is not configured
+2013-05-01 14:35:46,827 [36] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 33] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-05-01 14:35:46,858 [36] INFO  Umbraco.Web.UmbracoApplication - [Thread 33] Application shutdown. Reason: ConfigurationChange
+2013-05-01 14:35:47,108 [21] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application starting
+2013-05-01 14:35:47,170 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Determining hash of code files on disk
+2013-05-01 14:35:47,186 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Hash determined (took 12ms)
+2013-05-01 14:35:47,217 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2013-05-01 14:35:47,233 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-05-01 14:35:47,233 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-05-01 14:35:47,248 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-05-01 14:35:47,248 [21] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 8 (took 1ms)
+2013-05-01 14:35:47,342 [21] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application startup complete (took 218ms)
+2013-05-01 14:35:47,576 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 18] Error executing query select distinct alias from cmsPropertyType order by alias
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select distinct alias from cmsPropertyType order by alias
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:47,638 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 18] Error executing query select distinct alias from cmsPropertyType order by alias
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select distinct alias from cmsPropertyType order by alias
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:47,670 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 18] Error executing query select distinct alias from cmsPropertyType order by alias
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select distinct alias from cmsPropertyType order by alias
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:48,060 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 18] Error executing query select 
+	            umbracoNode.id, umbracoNode.uniqueId, umbracoNode.level, 
+	            umbracoNode.parentId, umbracoNode.path, umbracoNode.sortOrder, umbracoNode.createDate, 
+	            umbracoNode.nodeUser, umbracoNode.text, 
+	            cmsMember.Email, cmsMember.LoginName, cmsMember.Password
+            from umbracoNode 
+            inner join cmsContent on cmsContent.nodeId = umbracoNode.id
+            inner join cmsMember on  cmsMember.nodeId = cmsContent.nodeId
+			where umbracoNode.nodeObjectType = @nodeObjectType AND 1=1			
+			order by umbracoNode.text
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select  	            umbracoNode.id, umbracoNode.uniqueId, umbracoNode.level,  	            umbracoNode.parentId, umbracoNode.path, umbracoNode.sortOrder, umbracoNode.createDate,  	            umbracoNode.nodeUser, umbracoNode.text,  	            cmsMember.Email, cmsMember.LoginName, cmsMember.Password             from umbracoNode              inner join cmsContent on cmsContent.nodeId = umbracoNode.id             inner join cmsMember on  cmsMember.nodeId = cmsContent.nodeId 			where umbracoNode.nodeObjectType = @nodeObjectType AND 1=1			 			order by umbracoNode.text
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:48,060 [21] ERROR Umbraco.Core.PluginManager - [Thread 18] Error creating type umbraco.presentation.umbraco.Search.ExamineEvents
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Examine.ExamineManager' threw an exception. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteReader ---> SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select  	            umbracoNode.id, umbracoNode.uniqueId, umbracoNode.level,  	            umbracoNode.parentId, umbracoNode.path, umbracoNode.sortOrder, umbracoNode.createDate,  	            umbracoNode.nodeUser, umbracoNode.text,  	            cmsMember.Email, cmsMember.LoginName, cmsMember.Password             from umbracoNode              inner join cmsContent on cmsContent.nodeId = umbracoNode.id             inner join cmsMember on  cmsMember.nodeId = cmsContent.nodeId 			where umbracoNode.nodeObjectType = @nodeObjectType AND 1=1			 			order by umbracoNode.text
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   at umbraco.cms.businesslogic.member.Member.GetAllAsList()
+   at UmbracoExamine.UmbracoMemberIndexer.GetXDocument(String xPath, String type)
+   at UmbracoExamine.BaseUmbracoIndexer.AddNodesToIndex(String xPath, String type)
+   at UmbracoExamine.BaseUmbracoIndexer.PerformIndexAll(String type)
+   at UmbracoExamine.BaseUmbracoIndexer.PerformIndexRebuild()
+   at Examine.ExamineManager.LoadProviders()
+   at Examine.ExamineManager..cctor()
+   --- End of inner exception stack trace ---
+   at UmbracoExamine.UmbracoEventManager..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2013-05-01 14:35:48,060 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:48,075 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 18] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:48,075 [21] ERROR Umbraco.Core.PluginManager - [Thread 18] Error creating type UmbracoExamine.UmbracoEventManager
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Examine.ExamineManager' threw an exception. ---> umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteReader ---> SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+select  	            umbracoNode.id, umbracoNode.uniqueId, umbracoNode.level,  	            umbracoNode.parentId, umbracoNode.path, umbracoNode.sortOrder, umbracoNode.createDate,  	            umbracoNode.nodeUser, umbracoNode.text,  	            cmsMember.Email, cmsMember.LoginName, cmsMember.Password             from umbracoNode              inner join cmsContent on cmsContent.nodeId = umbracoNode.id             inner join cmsMember on  cmsMember.nodeId = cmsContent.nodeId 			where umbracoNode.nodeObjectType = @nodeObjectType AND 1=1			 			order by umbracoNode.text
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = E:\development\Applications\WebBlocksReleaseTest\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at SQLCE4Umbraco.SqlCeContextGuardian.ensureOpenBackgroundConnection(String connectionString)
+   at SQLCE4Umbraco.SqlCeContextGuardian.Open(String connectionString)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   at umbraco.cms.businesslogic.member.Member.GetAllAsList()
+   at UmbracoExamine.UmbracoMemberIndexer.GetXDocument(String xPath, String type)
+   at UmbracoExamine.BaseUmbracoIndexer.AddNodesToIndex(String xPath, String type)
+   at UmbracoExamine.BaseUmbracoIndexer.PerformIndexAll(String type)
+   at UmbracoExamine.BaseUmbracoIndexer.PerformIndexRebuild()
+   at Examine.ExamineManager.LoadProviders()
+   at Examine.ExamineManager..cctor()
+   --- End of inner exception stack trace ---
+   at UmbracoExamine.UmbracoEventManager..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2013-05-01 14:35:48,886 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 30] CurrentVersion different from configStatus: '4.11.8',''
+2013-05-01 14:35:48,996 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 30] Error executing query SELECT CONSTRAINT_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS LEFT OUTER JOIN umbracoApp ON appAlias = appAlias WHERE CONSTRAINT_NAME = 'FK_umbracoUser2app_umbracoApp'
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+SELECT CONSTRAINT_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS LEFT OUTER JOIN umbracoApp ON appAlias = appAlias WHERE CONSTRAINT_NAME = 'FK_umbracoUser2app_umbracoApp'
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The specified table does not exist. [ umbracoApp ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:49,027 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 30] Error executing query SELECT id FROM umbracoNode WHERE id = -21
+SqlCE4Umbraco.SqlCeProviderException: Error running Reader: 
+SQL Statement:
+SELECT id FROM umbracoNode WHERE id = -21
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The specified table does not exist. [ umbracoNode ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteReader(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+2013-05-01 14:35:49,042 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 30] Error executing query SELECT action FROM umbracoAppTree
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+SELECT action FROM umbracoAppTree
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The specified table does not exist. [ umbracoAppTree ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-05-01 14:35:49,042 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 30] Error executing query SELECT description FROM cmsContentType
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+SELECT description FROM cmsContentType
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The specified table does not exist. [ cmsContentType ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-05-01 14:35:49,042 [21] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 30] Error executing query SELECT id FROM sysobjects
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+SELECT id FROM sysobjects
+
+Exception:
+System.Data.SqlServerCe.SqlCeException (0x80004005): The specified table does not exist. [ sysobjects ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-05-01 14:36:31,334 [21] INFO  Umbraco.Web.UmbracoApplication - [Thread 28] Application shutdown. Reason: ConfigurationChange
+2013-05-01 14:36:32,223 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 12] Umbraco application starting
+2013-05-01 14:36:32,301 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Determining hash of code files on disk
+2013-05-01 14:36:32,317 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Hash determined (took 13ms)
+2013-05-01 14:36:32,348 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 17ms)
+2013-05-01 14:36:32,364 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2013-05-01 14:36:32,379 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-05-01 14:36:32,379 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2013-05-01 14:36:32,395 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 8 (took 2ms)
+2013-05-01 14:36:32,504 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 12] Umbraco application startup complete (took 260ms)
+2013-05-01 14:36:33,409 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 188ms)
+2013-05-01 14:36:33,440 [8] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 4ms)
+2013-05-01 14:36:56,138 [8] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 10ms)
+2013-05-01 14:36:56,435 [8] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-05-01 14:37:34,982 [8] INFO  Umbraco.Web.UmbracoApplication - [Thread 31] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-05-01 14:37:36,683 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application starting
+2013-05-01 14:37:36,761 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Determining hash of code files on disk
+2013-05-01 14:37:36,776 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Hash determined (took 15ms)
+2013-05-01 14:37:37,026 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 224ms)
+2013-05-01 14:37:37,041 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-05-01 14:37:37,057 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-01 14:37:37,057 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-05-01 14:37:37,073 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-05-01 14:37:37,166 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application startup complete (took 464ms)
+2013-05-01 14:37:37,681 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2013-05-01 14:37:37,728 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2013-05-01 14:37:39,662 [9] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 2ms)
+2013-05-01 14:37:39,678 [9] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-05-01 14:37:41,690 [9] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 2ms)
+2013-05-01 14:37:41,690 [9] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-05-01 14:38:25,448 [9] INFO  Umbraco.Web.UmbracoApplication - [Thread 30] Application shutdown. Reason: ConfigurationChange
+2013-05-01 14:38:27,445 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 16] Umbraco application starting
+2013-05-01 14:38:27,523 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Determining hash of code files on disk
+2013-05-01 14:38:27,539 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Hash determined (took 15ms)
+2013-05-01 14:38:27,788 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 216ms)
+2013-05-01 14:38:27,804 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-05-01 14:38:27,804 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2013-05-01 14:38:27,819 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-05-01 14:38:27,819 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-05-01 14:38:27,913 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 16] Umbraco application startup complete (took 447ms)
+2013-05-01 14:38:28,584 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2013-05-01 14:38:28,631 [36] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2013-05-01 14:38:32,999 [36] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 3ms)
+2013-05-01 14:38:33,092 [36] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-05-01 14:45:12,968 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:45:18,490 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:45:20,627 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:45:22,156 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:10,095 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:11,406 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:46:12,638 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:46:12,794 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:12,934 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:13,106 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:13,246 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:46:13,402 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:13,543 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:46:13,683 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:13,839 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:46:14,120 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:14,260 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:46:14,401 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:14,557 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:46:22,684 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:46:23,714 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:24,182 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:24,541 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:46:25,914 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco has no content
+2013-05-01 14:47:32,120 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:47:33,742 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:47:34,429 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:47:38,641 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:48:53,022 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:48:53,911 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:48:54,332 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 17] Umbraco has no content
+2013-05-01 14:48:54,551 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:48:54,769 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 9] Umbraco has no content
+2013-05-01 14:49:06,001 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 32] Umbraco has no content
+2013-05-01 14:50:33,970 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:51:19,693 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 35] Umbraco has no content
+2013-05-01 14:53:21,639 [36] WARN  Umbraco.Web.UmbracoModule - [Thread 30] Umbraco has no content
+2013-05-01 14:56:12,319 [36] INFO  Umbraco.Web.UmbracoApplication - [Thread 13] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-05-01 14:56:19,822 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-01 14:56:19,900 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-01 14:56:19,916 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2013-05-01 14:56:20,087 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 156ms)
+2013-05-01 14:56:20,103 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2013-05-01 14:56:20,103 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2013-05-01 14:56:20,119 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-05-01 14:56:20,119 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 2ms)
+2013-05-01 14:56:20,181 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 348ms)
+2013-05-01 14:56:20,930 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-05-01 14:56:20,961 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 4ms)
+2013-05-01 14:56:22,942 [9] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 3ms)
+2013-05-01 14:57:04,703 [9] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-05-01 14:58:55,058 [9] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.XsltExtensionAttribute, found 0 (took 19ms)
+2013-05-01 14:59:32,576 [9] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 4ms)
+2013-05-01 15:01:31,370 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 31] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:01:31,386 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 31] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:01:31,386 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 31] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:02:28,435 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:02:28,435 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:02:28,435 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:03:10,821 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 34] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): The file '/~/usercontrols/ContactUs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at WebBlocks.usercontrols.webblocks.datatypes.UserControlPropertySetter.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.editorControls.userControlGrapper.usercontrolDataEditor.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.controls.ContentControl.AddControlNew(Property p, TabPage tp, String cap)
+   at umbraco.controls.ContentControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at umbraco.controls.ContentControl.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:03:25,048 [9] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:03:50,757 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): The file '/~/usercontrols/ContactUs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at WebBlocks.usercontrols.webblocks.datatypes.UserControlPropertySetter.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.editorControls.userControlGrapper.usercontrolDataEditor.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.controls.ContentControl.AddControlNew(Property p, TabPage tp, String cap)
+   at umbraco.controls.ContentControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at umbraco.controls.ContentControl.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:04:09,414 [9] INFO  Umbraco.Web.UmbracoApplication - [Thread 25] Application shutdown. Reason: ConfigurationChange
+2013-05-01 15:04:12,144 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-01 15:04:12,207 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-01 15:04:12,222 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2013-05-01 15:04:12,441 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 199ms)
+2013-05-01 15:04:12,456 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-05-01 15:04:12,472 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-01 15:04:12,472 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2013-05-01 15:04:12,487 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 10 (took 3ms)
+2013-05-01 15:04:12,597 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 435ms)
+2013-05-01 15:04:13,314 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-05-01 15:04:13,345 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 4ms)
+2013-05-01 15:04:14,157 [7] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2013-05-01 15:04:14,188 [7] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 3ms)
+2013-05-01 15:04:14,359 [7] ERROR Umbraco.Web.UmbracoApplication - [Thread 25] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): The file '/~/usercontrols/ContactUs.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at WebBlocks.usercontrols.webblocks.datatypes.UserControlPropertySetter.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.editorControls.userControlGrapper.usercontrolDataEditor.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.controls.ContentControl.AddControlNew(Property p, TabPage tp, String cap)
+   at umbraco.controls.ContentControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at umbraco.controls.ContentControl.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:05:25,823 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2013-05-01 15:05:26,135 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:05:26,135 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:05:26,229 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:05:49,020 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:05:49,020 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:05:49,020 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:06:06,258 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:06:06,258 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:06:06,258 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:06:51,452 [7] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 20ms)
+2013-05-01 15:08:39,591 [7] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:10:46,622 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:10:46,622 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:10:46,622 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:12:47,086 [7] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> WebBlocks.BusinessLogic.Exceptions.MacroNotFoundException: Exception: Macro not found. Please make sure you have a Macro matching the Doc Type Alias (Alternative Link)
+   at WebBlocks.BusinessLogic.Views.BlockView.RenderBlockBasedOnType(HtmlGenericControl control, IRenderingEngine engine)
+   at WebBlocks.BusinessLogic.Views.BlockView.InitRenderingEngine(HtmlGenericControl control)
+   at WebBlocks.BusinessLogic.Views.BlockView.Render(HtmlGenericControl control)
+   at WebBlocks.usercontrols.webblocks.block.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:12:54,308 [7] ERROR Umbraco.Web.UmbracoApplication - [Thread 28] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> WebBlocks.BusinessLogic.Exceptions.MacroNotFoundException: Exception: Macro not found. Please make sure you have a Macro matching the Doc Type Alias (Alternative Link)
+   at WebBlocks.BusinessLogic.Views.BlockView.RenderBlockBasedOnType(HtmlGenericControl control, IRenderingEngine engine)
+   at WebBlocks.BusinessLogic.Views.BlockView.InitRenderingEngine(HtmlGenericControl control)
+   at WebBlocks.BusinessLogic.Views.BlockView.Render(HtmlGenericControl control)
+   at WebBlocks.usercontrols.webblocks.block.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:13:50,390 [7] ERROR Umbraco.Web.UmbracoApplication - [Thread 29] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> WebBlocks.BusinessLogic.Exceptions.MacroNotFoundException: Exception: Macro not found. Please make sure you have a Macro matching the Doc Type Alias (Alternative Link)
+   at WebBlocks.BusinessLogic.Views.BlockView.RenderBlockBasedOnType(HtmlGenericControl control, IRenderingEngine engine)
+   at WebBlocks.BusinessLogic.Views.BlockView.InitRenderingEngine(HtmlGenericControl control)
+   at WebBlocks.BusinessLogic.Views.BlockView.Render(HtmlGenericControl control)
+   at WebBlocks.usercontrols.webblocks.block.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-01 15:15:32,056 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:15:32,056 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:15:32,056 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-01 15:16:01,009 [7] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 5ms)
+2013-05-01 15:16:01,197 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1100. This is most likely caused by the page not being published.
+2013-05-01 15:16:01,555 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1104. This is most likely caused by the page not being published.
+2013-05-01 15:16:01,571 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1105. This is most likely caused by the page not being published.
+2013-05-01 15:16:01,571 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1106. This is most likely caused by the page not being published.
+2013-05-01 15:16:05,112 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1103. This is most likely caused by the page not being published.
+2013-05-01 15:16:05,128 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1108. This is most likely caused by the page not being published.
+2013-05-01 15:16:05,237 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1103. This is most likely caused by the page not being published.
+2013-05-01 15:16:22,101 [7] ERROR umbraco.presentation.webservices.nodeSorter - [Thread 32] Could not update sort order
+System.ArgumentException: No Document exists with Version '00000000-0000-0000-0000-000000000000'
+   at umbraco.cms.businesslogic.web.Document.setupNode()
+   at umbraco.cms.businesslogic.web.Document..ctor(Int32 id)
+   at umbraco.presentation.webservices.nodeSorter.UpdateSortOrder(Int32 ParentId, String SortOrder)
+2013-05-01 15:17:55,092 [7] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 0ms)
+2013-05-01 15:17:55,139 [7] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 2 (took 11ms)
+2013-05-01 15:22:21,900 [7] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:28:06,723 [7] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2013-05-01 15:29:11,244 [7] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:29:29,496 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:34:31,076 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)
+2013-05-01 15:38:05,686 [7] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 0ms)

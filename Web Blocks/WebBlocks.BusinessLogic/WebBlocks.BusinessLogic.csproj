@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEE66BF5-D9A9-464D-8A56-EFD5D391233F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebBlocks.BusinessLogic</RootNamespace>
+    <AssemblyName>WebBlocks.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="businesslogic">
+      <HintPath>..\..\lib\umbraco\4.11.8\businesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="cms">
+      <HintPath>..\..\lib\umbraco\4.11.8\cms.dll</HintPath>
+    </Reference>
+    <Reference Include="interfaces">
+      <HintPath>..\..\lib\umbraco\4.11.8\interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+    <Reference Include="umbraco">
+      <HintPath>..\..\lib\umbraco\4.11.8\umbraco.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Core">
+      <HintPath>..\..\lib\umbraco\4.11.8\Umbraco.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.editorControls">
+      <HintPath>..\..\lib\umbraco\4.11.8\umbraco.editorControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Forms.Core">
+      <HintPath>..\..\lib\umbraco\4.7.2\Umbraco.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.MacroEngines">
+      <HintPath>..\..\lib\umbraco\4.11.8\umbraco.MacroEngines.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.macroRenderings">
+      <HintPath>..\..\lib\umbraco\4.11.8\umbraco.macroRenderings.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events\RegisterEmbeddedResources.cs" />
+    <Compile Include="Exceptions\MacroNotFoundException.cs" />
+    <Compile Include="Extensions\TemplateExtensions.cs" />
+    <Compile Include="Helpers\EmbeddedResources.cs" />
+    <Compile Include="Helpers\HtmlHelper.cs" />
+    <Compile Include="Helpers\ValueConverter.cs" />
+    <Compile Include="Helpers\WebBlocksUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\WebBlocksXslt.cs" />
+    <Compile Include="Interface\IDeclareRazor.cs" />
+    <Compile Include="Interface\IRenderingEngine.cs" />
+    <Compile Include="Model\EmbeddedDeclaration.cs" />
+    <Compile Include="Model\UserControlProperty.cs" />
+    <Compile Include="UmbracoExtensions\ContourExtension.cs" />
+    <Compile Include="Helpers\Interfaces\ISerialiser.cs" />
+    <Compile Include="Helpers\IOReadWrite.cs" />
+    <Compile Include="Helpers\JSON.cs" />
+    <Compile Include="Helpers\JSONSerialiser.cs" />
+    <Compile Include="Helpers\WebBlocks.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\BlockView.cs" />
+    <Compile Include="Views\RenderingEngine\RazorRenderingEngine.cs" />
+    <Compile Include="Views\RenderingEngine\XSLTRenderingEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebBlocks.Model\WebBlocks.Model.csproj">
+      <Project>{496D84F5-9ED2-46F5-A657-C2F40BC67E37}</Project>
+      <Name>WebBlocks.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
